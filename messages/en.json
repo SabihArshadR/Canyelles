@@ -1,0 +1,645 @@
+{
+  "Login": {
+    "button1": "LOGIN",
+    "button2": "REGISTER",
+    "enter_credentials": "Please enter email and password",
+    "email_not_verified": "Email not verified. Please verify your email first.",
+    "login_success": "Login successful!",
+    "login_failed": "Login failed. Incorrect email or password.",
+    "loading": "Logging in...",
+    "or": "OR",
+    "continue_google": "Continue with Google",
+    "continue_microsoft": "Continue with Microsoft"
+  },
+  "Register": {
+    "field1": "First Name",
+    "field2": "Last Name",
+    "field3": "Email",
+    "field4": "Password",
+    "field5": "Mobile Phone Number",
+    "field6": "Place of Origin",
+    "check1": "I agree to receive newsletters and promotions from Node Garraf",
+    "check21": "I have read and accept the",
+    "check22": "Privacy Policy",
+    "button1": "REGISTER",
+    "processing": "Processing...",
+    "button2": "I'M ALREADY REGISTERED",
+    "enterPassword": "Please enter a new password",
+    "enterEmail": "Please enter your email",
+    "resetSuccess": "Password reset successful!",
+    "resetFailed": "Failed to reset password",
+    "somethingWrong": "Something went wrong",
+    "resetting": "Resetting...",
+    "resetButton": "Reset Password",
+    "placeholder": "Enter new password",
+    "sending": "Sending...",
+    "sendLink": "Send Reset Link",
+    "emailSent": "Password reset email sent!",
+    "sendFailed": "Failed to send reset email",
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidPhone": "Phone number can only contain '+', numbers, and spaces.",
+    "termsRequired": "You must accept the Terms and Conditions.",
+    "privacyRequired": "You must accept the Privacy Policy.",
+    "registerSuccess": "Registered successfully. Please check your email for verification code.",
+    "updateSuccess": "Information updated successfully.",
+    "updateError": "Failed to update info.",
+    "generalError": "Something went wrong.",
+    "enterAddress": "Please enter your address"
+  },
+  "Verify Email": {
+    "verify_email": "Verify Email",
+    "resend_code": "Resend Code",
+    "loading": "Verifying...",
+    "sending": "Sending...",
+    "enter_full_code": "Please enter the full code",
+    "email_verified": "Email verified successfully!",
+    "already_verified": "User already verified",
+    "verification_failed": "Verification failed. Incorrect code",
+    "something_wrong": " Something went wrong",
+    "resend_timer": "Resend available in {seconds}s",
+    "new_code_sent": "New verification code sent to your email"
+  },
+  "Dashboard": {
+    "card1": "Map",
+    "card2": "Profile",
+    "card3": "Findings",
+    "card4": "Know",
+    "card5": "FAQ's",
+    "card6": "Recommend",
+    "read_more": "More info",
+    "lang1": "Catalan",
+    "lang2": "Spanish",
+    "lang3": "English",
+    "lang4": "French",
+    "complete": "Congratulations! You have completed the Friends of the Basaltic Cliff adventure. If you want to repeat it, go to your profile, where you will find the restart button.",
+    "keep_playing": "Continue"
+  },
+  "Map": {
+    "first": "FIRST",
+    "second": "SECOND",
+    "third": "THIRD",
+    "fourth": "FOURTH",
+    "fifth": "FIFTH",
+    "sixth": "SIXTH",
+    "seventh": "SEVENTH",
+    "eighth": "EIGHTH",
+    "ninth": "NINTH",
+    "title1": "STOP",
+    "title2": "The secrets of Roman roads",
+    "button": "PLAY"
+  },
+  "Progress": {
+    "title1": "Hello, ",
+    "title2": " LEVEL",
+    "title3": "Total points",
+    "button1": "PROGRESS",
+    "title4": "Festival Rewards",
+    "title5": "Points",
+    "title6": "Complete",
+    "button2": "Findings",
+    "button3": "Restart",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "confirmMessage": "Are you sure you want to restart?"
+  },
+  "Level": {
+    "title1": "Hello, ",
+    "title2": " LEVEL",
+    "title3": "Total points",
+    "button": "LEVEL",
+    "row1": "VOLCANO LEVEL",
+    "row2": "MAGMA LEVEL",
+    "row3": "ROCK LEVEL",
+    "rowtitle": "Earn 1000 points"
+  },
+  "StartQuiz": {
+    "title": "GREAT MAGMA",
+    "description": "Now is the time to test your expertise on the Roman Empire by answering the following question.",
+    "button1": "START"
+  },
+  "Quiz": {
+    "title": "Which of these statements is NOT true?",
+    "option1": "The Romans built long paved roads",
+    "option2": "The Romans built aqueducts",
+    "option3": "The Romans built 2 rockets to go to the moon",
+    "option4": "The Romans not built aqueducts"
+  },
+  "DidYouKnow": {
+    "title": "Did you know?",
+    "description": "Tomorrow belongs to those who build it today. Stand strong with purpose, and let no fear cloud your mind. Strength is born through perseverance and unity.",
+    "button": "LET'S GO"
+  },
+  "Classification": {
+    "title": "CLASSIFICATION",
+    "tablehead1": "First Name",
+    "tablehead2": "Last Name",
+    "tablehead3": "Points",
+    "row1data1": "Craig",
+    "row1data2": "Bloemsma",
+    "row1data3": "1000",
+    "row2data1": "Albert",
+    "row2data2": "Mozé Fàbregasx",
+    "row3data3": "654"
+  },
+  "FAQS": {
+    "title": "FAQ'S",
+    "button1": "AR FAQ",
+    "button2": "GAME FAQ",
+    "button3": "MAP FAQ",
+    "ar": {
+      "q1": "What is augmented reality (AR) and how do we use it here?",
+      "a1": "Augmented reality is a technology that allows digital elements—such as characters, objects, or scenes—to be superimposed on the real environment through your mobile camera. In this game, it is used to view Roc, collect volcanic rocks, and see the findings.",
+      "q2": "Do I need to download any app?",
+      "a2": "No. This is a web application (webapp): you just need to access the link through your browser (Chrome, Safari...). Nothing needs to be downloaded.",
+      "q3": "Is my phone compatible with AR?",
+      "a3": "It works with most recent devices that have a camera and an updated browser. You need to allow camera access. If you have issues, try another browser or device.",
+      "q4": "I see nothing when I open the camera. What can I do?",
+      "a4": "Make sure that:\n\n● You have physically reached the correct point on the map (geolocation).\n● You have granted camera access.\n● There is enough light around.\nIf it still doesn't work, close and reopen the browser.",
+      "q5": "Is an internet connection required to use AR?",
+      "a5": "Yes. AR loads in the browser, so you need mobile data or Wi-Fi during the experience.",
+      "q6": "Is it safe to use AR while walking?",
+      "a6": "Yes, but be aware of your surroundings while using the camera. Don't walk looking at your phone and always keep an eye on your environment.",
+      "q7": "Can I take photos or videos with AR?",
+      "a7": "Yes! You can take screenshots and record videos with Roc and the different AR experiences and share them. It's a great way to remember and share your adventure."
+    },
+    "game": {
+      "q1": "What is the goal of the game?",
+      "a1": "The goal is to discover the hidden secrets of the basalt cliff by completing AR challenges. Along the way, you'll collect volcanic rocks and earn unique findings.",
+      "q2": "What’s the difference between a rock and a finding?",
+      "a2": "Volcanic rocks are natural elements you collect through interactive AR challenges.\nFindings are cultural or symbolic items you get by completing the challenges and quizzes.",
+      "q3": "How do I collect rocks and findings?",
+      "a3": "You must physically reach the geolocated points on the map. There, Roc will tell a story and give you an interactive challenge and a question. If you complete them, you'll receive the rocks and the finding for that point.",
+      "q4": "What happens if I fail a challenge or a question?",
+      "a4": "Interactive challenges are passed by collecting a certain number of volcanic rocks with AR. In all cases...",
+      "q5": "Do I need to register to play?",
+      "a5": "Yes, registration is required to participate in the game, access AR points, and unlock rocks and findings. It lets us save your progress, personalize the experience, and ensure the system works correctly. Registration is quick and only needs to be done once.",
+      "q6": "Can I play in a group or with my family?",
+      "a6": "Yes! The game is designed for group play: with friends, family, or school. You only need one phone or tablet per team and the desire to explore together.",
+      "q7": "How long does the game last?",
+      "a7": "It depends on your pace. The full route usually takes 60 to 90 minutes, but you can do it all at once or split it over time."
+    },
+    "map": {
+      "q1": "How does the game map work?",
+      "a1": "The interactive map shows geolocated points along the route. AR content only unlocks when you physically reach a point.",
+      "q2": "Is geolocation required on my phone?",
+      "a2": "Yes. Without geolocation enabled, you cannot play. The system needs to know your location to verify you've reached each point. We recommend turning on location before starting.\n\nHow to enable geolocation:\n\n**On Android:**\n1. Open your device settings.\n2. Go to Location.\n3. Enable Location.\n4. Ensure your browser has location permissions:\n   - Settings > Apps > [Browser Name] > Permissions > Location > Allow always or While using.\n\n**On iPhone:**\n1. Open Settings.\n2. Go to Privacy & Security > Location Services.\n3. Enable Location Services.\n4. Check your browser settings (Safari or Chrome).\n5. Ensure location is allowed during use.",
+      "q3": "What if the map doesn't detect me correctly?",
+      "a3": "● Make sure your location is enabled (see steps above).\n● Refresh your browser page.",
+      "q4": "Is an internet connection required to use the map?",
+      "a4": "Yes. The webapp needs an active connection to display the map and verify your location. However, data usage is very low.",
+      "q5": "The map says I'm not at the right spot, but I am. What can I do?",
+      "a5": "● Move slightly around the area: sometimes GPS needs a few seconds.\n● Ensure you're not under a structure or indoors.\n● Make sure you have a good GPS or mobile signal.",
+      "q6": "Can I do the route in any order?",
+      "a6": "No. The route is linear. You must follow the established order of points since each challenge and finding depends on the previous point. The map will only show the next unlocked point—you can't proceed without completing the current one."
+    }
+  },
+  "Auth": {
+    "ForgotPassword": "Forgot password?",
+    "NoAccount": "Don't have an account?",
+    "CreateAccount": "Create account",
+    "HaveAccount": "Already have an account?",
+    "LoginAccount": "Login account"
+  },
+  "Links": {
+    "GAME": "GAME",
+    "Historical_link": "HISTORICAL ARCHIVE",
+    "Award_link": "AWARDS / PRIZES",
+    "Profile_link": "PROFILE",
+    "Ranking_Link": "RANKING / LEADERBOARD",
+    "LOGOUT_link": "LOG OUT"
+  },
+  "Amics": {
+    "title": "FINDINGS",
+    "description": "Be not sad. Let sorrow pass gently, for the past is gone. Welcome the present with courage and calm. Let hope guide your steps and love make you strong"
+  },
+  "Head": {
+    "title1": "Menu",
+    "title2": "Access",
+    "title3": "Logout"
+  },
+  "Volcano1Quiz1": {
+    "title": "What appears on the town's coat of arms?",
+    "option1": "A castle",
+    "option2": "A church",
+    "option3": "A volcano",
+    "option4": "A sword"
+  },
+  "Volcano1Quiz2": {
+    "title": "To which saint is the tower dedicated?",
+    "option1": "Saint Roch",
+    "option2": "Saint Peter",
+    "option3": "Saint John",
+    "option4": "Saint Paul"
+  },
+  "Volcano1Quiz3": {
+    "title": "What other name does this place have?",
+    "option1": "Saint Roch Square",
+    "option2": "Center Square",
+    "option3": "Middle Square",
+    "option4": "Saint Peter Square"
+  },
+  "Volcano1Quiz4": {
+    "title": "What inscription is above the saint?",
+    "option1": "1885",
+    "option2": "1890",
+    "option3": "1900",
+    "option4": "1901"
+  },
+  "Volcano2Quiz1": {
+    "title": "Which rock was extracted from the quarry?",
+    "option1": "Basalt",
+    "option2": "Conglomerates",
+    "option3": "Sandstone",
+    "option4": "Granite"
+  },
+  "Volcano2Quiz2": {
+    "title": "Where does the rock we see here come from?",
+    "option1": "A lava flow",
+    "option2": "The river",
+    "option3": "A meteorite",
+    "option4": "A landslide"
+  },
+  "Volcano2Quiz3": {
+    "title": "What is the profession working with stone?",
+    "option1": "Stonecutter",
+    "option2": "Bricklayer",
+    "option3": "Carpenter",
+    "option4": "Architect"
+  },
+  "Volcano2Quiz4": {
+    "title": "What shape does the lava flow in front of us have?",
+    "option1": "Column",
+    "option2": "Triangle",
+    "option3": "Round",
+    "option4": "Square"
+  },
+  "Volcano2Quiz5": {
+    "title": "What color is basalt?",
+    "option1": "Black or gray",
+    "option2": "Reddish",
+    "option3": "Yellowish",
+    "option4": "White"
+  },
+  "Volcano3Quiz1": {
+    "title": "What is the name of the square we are in?",
+    "option1": "Giants' Square",
+    "option2": "Middle Plain",
+    "option3": "Main Square",
+    "option4": "Town Hall Square"
+  },
+  "Volcano3Quiz2": {
+    "title": "What are the names of the giants of Castellfollit?",
+    "option1": "Roc and Barbara",
+    "option2": "Giant and Giantess",
+    "option3": "Jordi and Maria",
+    "option4": "Pep and Pepa"
+  },
+  "Volcano3Quiz3": {
+    "title": "What does the giantess hold in her hand?",
+    "option1": "A bouquet of flowers",
+    "option2": "A basket",
+    "option3": "A volcanic rock",
+    "option4": "A loaf of bread"
+  },
+  "Volcano3Quiz4": {
+    "title": "What tool does the giant hold?",
+    "option1": "A sword",
+    "option2": "An instrument",
+    "option3": "A basalt column",
+    "option4": "A bouquet of flowers"
+  },
+  "Volcano3Quiz5": {
+    "title": "How many trees are in the square?",
+    "option1": "3",
+    "option2": "4",
+    "option3": "5",
+    "option4": "1"
+  },
+  "Volcano3Quiz6": {
+    "title": "How many circles can we see drawn on the sculpture?",
+    "option1": "2",
+    "option2": "3",
+    "option3": "4",
+    "option4": "5"
+  },
+  "Volcano4Quiz1": {
+    "title": "How many basalt columns are in the square?",
+    "option1": "10",
+    "option2": "8",
+    "option3": "6",
+    "option4": "1"
+  },
+  "Volcano4Quiz2": {
+    "title": "Which of these peaks can be seen from the viewpoint?",
+    "option1": "Bestrecà and Montmajor",
+    "option2": "Puigsacalm",
+    "option3": "Bassegoda",
+    "option4": "Bastiments"
+  },
+  "Volcano4Quiz3": {
+    "title": "What animal figure is represented at the viewpoint?",
+    "option1": "Bird",
+    "option2": "Horse",
+    "option3": "Cow",
+    "option4": "Butterfly"
+  },
+  "Volcano4Quiz4": {
+    "title": "Name 3 things you can see from up here:",
+    "option1": "River",
+    "option2": "Houses",
+    "option3": "Mountains",
+    "option4": "Road"
+  },
+  "Volcano4Quiz5": {
+    "title": "Which valley is observed from the viewpoint?",
+    "option1": "Fluvià Valley",
+    "option2": "Bas Valley",
+    "option3": "Bianya Valley",
+    "option4": "Ter Valley"
+  },
+  "Volcano4Quiz6": {
+    "title": "How many cypress trees are in the square?",
+    "option1": "2",
+    "option2": "4",
+    "option3": "6",
+    "option4": "1"
+  },
+  "Volcano5Quiz1": {
+    "title": "What is the name of the church at the viewpoint?",
+    "option1": "Saint Salvador",
+    "option2": "Saint Roch",
+    "option3": "Saint Valentine",
+    "option4": "Saint Andrew"
+  },
+  "Volcano5Quiz2": {
+    "title": "What color are the path marks painted on the wall?",
+    "option1": "Yellow",
+    "option2": "White and Red",
+    "option3": "Green and Yellow",
+    "option4": "Orange"
+  },
+  "Volcano5Quiz3": {
+    "title": "Which sun-loving animal can we see among the rocks on the wall?",
+    "option1": "Lizard",
+    "option2": "Butterfly",
+    "option3": "Earthworm",
+    "option4": "Aligot"
+  },
+  "Volcano5Quiz4": {
+    "title": "What do we find beside the path?",
+    "option1": "Gardens",
+    "option2": "Buildings",
+    "option3": "School",
+    "option4": "Football field"
+  },
+  "Volcano6Quiz1": {
+    "title": "Where does the first lava flow come from?",
+    "option1": "Batet",
+    "option2": "Sant Joan les Fonts",
+    "option3": "Santa Pau",
+    "option4": "Olot"
+  },
+  "Volcano6Quiz2": {
+    "title": "What is the main river where the lava flow went down?",
+    "option1": "Fluvià",
+    "option2": "Ter",
+    "option3": "Muga",
+    "option4": "Onyar"
+  },
+  "Volcano6Quiz3": {
+    "title": "Which two rivers meet here?",
+    "option1": "Fluvià and Turonell",
+    "option2": "Fluvià and Ter",
+    "option3": "Fluvià and Muga",
+    "option4": "Turonell and Muga"
+  },
+  "Volcano6Quiz4": {
+    "title": "How many years ago did the first lava flow descend?",
+    "option1": "217,000 years",
+    "option2": "10,000 years",
+    "option3": "20,000 years",
+    "option4": "450,000 years"
+  },
+  "Volcano6Quiz5": {
+    "title": "What are the materials carried by the river called?",
+    "option1": "Sediments",
+    "option2": "Blocks",
+    "option3": "Clays",
+    "option4": "Marbles"
+  },
+  "Volcano6Quiz6": {
+    "title": "What type of vegetation is here?",
+    "option1": "Riparian forest",
+    "option2": "Oak forest",
+    "option3": "Beech forest",
+    "option4": "Pine forest"
+  },
+  "Volcano7Quiz1": {
+    "title": "According to the Natural Park, the cliff is a place of...",
+    "option1": "Geological interest",
+    "option2": "Cultural interest",
+    "option3": "Artistic interest",
+    "option4": "Historical interest"
+  },
+  "Volcano7Quiz2": {
+    "title": "What causes the cliff to erode?",
+    "option1": "Vegetation",
+    "option2": "Freeze-thaw",
+    "option3": "Weather",
+    "option4": "All answers are correct"
+  },
+  "Volcano7Quiz3": {
+    "title": "What is the name of the sediment layer that separates the two lava flows?",
+    "option1": "Paleosol",
+    "option2": "Stratum",
+    "option3": "Cliff",
+    "option4": "Layer"
+  },
+  "Volcano7Quiz4": {
+    "title": "What building do we have nearby?",
+    "option1": "An old factory",
+    "option2": "School",
+    "option3": "Town hall",
+    "option4": "Sports pavilion"
+  },
+  "Volcano7Quiz5": {
+    "title": "Which of these trees is part of the riparian forest?",
+    "option1": "Willow",
+    "option2": "Red pine",
+    "option3": "Oak",
+    "option4": "Palm tree"
+  },
+  "Volcano8Quiz1": {
+    "title": "How many meters deep do you think the cliff is?",
+    "option1": "10",
+    "option2": "20",
+    "option3": "15",
+    "option4": "25"
+  },
+  "Volcano8Quiz2": {
+    "title": "What is the name of the river in front?",
+    "option1": "Muga",
+    "option2": "Ter",
+    "option3": "Fluvià",
+    "option4": "Onyar"
+  },
+  "Volcano8Quiz3": {
+    "title": "What does the black layer on the cliff correspond to?",
+    "option1": "A lava flow",
+    "option2": "Sediment",
+    "option3": "Soil",
+    "option4": "Volcanic ash"
+  },
+  "Volcano8Quiz4": {
+    "title": "What color is the layer between the two lava flows?",
+    "option1": "Brown",
+    "option2": "Red",
+    "option3": "Gray",
+    "option4": "Black"
+  },
+  "Volcano8Quiz5": {
+    "title": "What kind of rocks make up the cliffs?",
+    "option1": "Basalt",
+    "option2": "Limestone",
+    "option3": "Granite",
+    "option4": "Sandstone"
+  },
+  "Volcano9Quiz1": {
+    "title": "What is the name of the peak on the right?",
+    "option1": "Puigsacalm",
+    "option2": "Montmajor",
+    "option3": "Bassegoda",
+    "option4": "Bestrecà"
+  },
+  "Volcano9Quiz2": {
+    "title": "Which mountain range does the Puigsacalm belong to?",
+    "option1": "Guilleries",
+    "option2": "Pyrenees",
+    "option3": "Alps",
+    "option4": "Montseny"
+  },
+  "Volcano9Quiz3": {
+    "title": "What is the main activity in the area?",
+    "option1": "Hiking",
+    "option2": "Skiing",
+    "option3": "Fishing",
+    "option4": "Hunting"
+  },
+  "Volcano9Quiz4": {
+    "title": "What kind of vegetation predominates here?",
+    "option1": "Mediterranean forest",
+    "option2": "Tundra",
+    "option3": "Alpine forest",
+    "option4": "Savannah"
+  },
+  "Volcano9Quiz5": {
+    "title": "Which animal can be commonly found here?",
+    "option1": "Wild boar",
+    "option2": "Bear",
+    "option3": "Wolf",
+    "option4": "Deer"
+  },
+  "Mapp": {
+    "button1": "MAP",
+    "button2": "LIST",
+    "text1": "Municipality",
+    "text2": "Romanticism Interpretation Center",
+    "text3": "Blava Tower - Guinovart Space"
+  },
+  "QuizPage": {
+    "try_again": "Try Again",
+    "finding_1": "Clock tower",
+    "finding_2": "Stonemason’s tools",
+    "finding_3": "Sword",
+    "finding_4": "Basalt rock",
+    "finding_5": "Cart",
+    "finding_6": "Tree frog",
+    "finding_7": "Willow",
+    "finding_8": "Blue tit",
+    "finding_9": "Trophy",
+    "description": "Back to exploring more POIs! Keep discovering and interacting with each point to unlock rewards, earn points, and level up. The more you explore, the more you progress.",
+    "button": "Continue the Game"
+  },
+  "intro": {
+    "title1": "This augmented reality experience requires access to your device’s camera and motion sensors.",
+    "text1": "Welcome to the game “The Friends of the Basaltic Cliff”. Listen to Roc, a volcanic rock from a volcano in La Garrotxa, who has lived in Castellfollit de la Roca for thousands of years.",
+    "title2": "This augmented reality experience requires access to your device’s camera and motion sensors.",
+    "text2": "Listen to Roc and find the volcanic rocks. Tap them to collect them.",
+    "title3": "This augmented reality experience requires access to your device’s camera and motion sensors.",
+    "text3": "Listen to Roc and throw the volcanic rocks into the volcanoes.",
+    "button1": "Skip Intro",
+    "button2": "Continue",
+    "button3": "AR Experience"
+  },
+  "CoinMap": {
+    "congratulation": "Congratulations!",
+    "text": "You've successfully reached your destination. You're now within range to experience the augmented reality treasure.",
+    "button": "Next"
+  },
+  "gameText": {
+    "place": "Place Avatar",
+    "audioPermission": "Audio permission required",
+    "cameraPermission": "Camera permission required",
+    "audioAllow": "Allow Audio",
+    "Cancel": "Cancel",
+    "enableRotation": "Enable Rotation",
+    "try_again": "Try Again"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "sections": {
+      "responsible": {
+        "title": "Data Controller",
+        "content": "In compliance with Regulation (EU) 2016/679 (GDPR) and Organic Law 3/2018 (LOPDGDD), you are informed that the personal data provided through the application will be processed under the responsibility of the following:",
+        "items": [
+          "Commercial Name: Som Experiències",
+          "Fiscal Name: Albert Mozó Fàbregas",
+          "Tax ID: 45790766C",
+          "Address: Rambla Lluís Companys, 2, 2n 5a, 08800 Vilanova i la Geltrú",
+          "Contact Name and ID: Albert Mozó Fàbregas – ID 45790766C",
+          "Phone: 685492584",
+          "Email: info@somexperiencies.cat"
+        ]
+      },
+      "dataCollected": {
+        "title": "Data Collected",
+        "content": "The application may collect the following personal data from users:",
+        "items": [
+          "Through registration with Google or Microsoft: name, surname, and email address.",
+          "Through a custom form: name, surname, email address, phone number, and place of origin.",
+          "Through device permissions: geolocation (to unlock game points) and camera access (for augmented reality features)."
+        ]
+      },
+      "purpose": {
+        "title": "Purpose of Processing",
+        "content": "The data is processed for the following purposes:",
+        "items": [
+          "To allow access and use of the application and its interactive content.",
+          "To ensure the activation of game points and personalize the experience.",
+          "To maintain security and improve the services offered.",
+          "To communicate news or information related to the application, with the user's prior consent."
+        ]
+      },
+      "legalBasis": {
+        "title": "Legal Basis",
+        "content": "The legal basis for processing is the user's consent, granted when registering and accepting this privacy policy."
+      },
+      "dataRetention": {
+        "title": "Data Retention",
+        "content": "The data will be kept only for as long as necessary for the provision of the service and, in any case, for the legally established periods. Geolocation data and camera images are not stored beyond temporary use on the device."
+      },
+      "dataSharing": {
+        "title": "Data Sharing with Third Parties",
+        "content": "Data will not be transferred to third parties except in cases of legal obligation or request by a competent authority."
+      },
+      "userRights": {
+        "title": "User Rights",
+        "content": "Users may exercise their rights of access, rectification, erasure, objection, restriction, and portability by contacting the data controller at info@somexperiencies.cat or by postal mail to the address indicated above."
+      },
+      "effect": {
+        "title": "Effect",
+        "content": "Use of the application implies express and full acceptance of this privacy policy. This policy is effective from the date of its publication and will remain in force until it is modified or updated in this same application."
+      }
+    }
+  }
+}

@@ -1,0 +1,647 @@
+{
+    "Login": {
+        "button1": "INICIAR SESSIÓ",
+        "button2": "REGISTRA'T",
+        "enter_credentials": "Si us plau, introdueix el correu electrònic i la contrasenya",
+        "email_not_verified": "Correu electrònic no verificat. Si us plau, verifica el teu correu primer.",
+        "login_success": "Inici de sessió correcte!",
+        "login_failed": "Error d'inici de sessió. Correu electrònic o contrasenya incorrectes.",
+        "loading": "Iniciant sessió...",
+        "or": "O",
+        "continue_google": "Continueu amb Google",
+        "continue_microsoft": "Continueu amb Microsoft"
+    },
+    "Register": {
+        "field1": "Nom",
+        "field2": "Cognoms",
+        "field3": "Correu electrònic",
+        "field4": "Contrasenya",
+        "field5": "Número de telèfon mòbil",
+        "field6": "Lloc de procedència",
+        "check1": "Accepto rebre newsletter i promocions d’activitats similars",
+        "check21": "He llegit i accepto la",
+        "check22": "Política de privadesa",
+        "button1": "REGISTRA'T",
+        "processing": "Processant",
+        "button2": "JA ESTIC REGISTRAT",
+        "enterPassword": "Si us plau, introdueix una nova contrasenya",
+        "enterEmail": "Si us plau, introdueix el teu correu electrònic",
+        "resetSuccess": "Contrasenya restablerta correctament!",
+        "resetFailed": "No s'ha pogut restablir la contrasenya",
+        "somethingWrong": "Alguna cosa ha anat malament",
+        "resetting": "S'està restablint...",
+        "resetButton": "Restablir contrasenya",
+        "placeholder": "Introdueix la nova contrasenya",
+        "sending": "S'està enviant...",
+        "sendLink": "Enviar enllaç de restabliment",
+        "emailSent": "Correu de restabliment enviat!",
+        "sendFailed": "No s'ha pogut enviar el correu de restabliment",
+        "invalidEmail": "Si us plau, introdueix una adreça de correu electrònic vàlida.",
+        "invalidPhone": "El número de telèfon només pot contenir '+', números i espais.",
+        "termsRequired": "Has d'acceptar els Termes i Condicions.",
+        "privacyRequired": "Has d'acceptar la Política de privacitat.",
+        "registerSuccess": "Registre completat amb èxit. Si us plau, revisa el teu correu per al codi de verificació.",
+        "updateSuccess": "Informació actualitzada correctament.",
+        "updateError": "No s'ha pogut actualitzar la informació.",
+        "generalError": "S'ha produït un error.",
+        "enterAddress": "Si us plau, introdueix la teva adreça"
+    },
+    "Verify Email": {
+        "verify_email": "Verificar correu electrònic",
+        "resend_code": "Tornar a enviar el codi",
+        "loading": "Verificant...",
+        "sending": "Enviant...",
+        "enter_full_code": "Si us plau, introdueix el codi complet",
+        "email_verified": "Correu electrònic verificat amb èxit!",
+        "already_verified": "Usuari ja verificat",
+        "verification_failed": "Verificació fallida. Codi incorrecte",
+        "something_wrong": "🚨 Alguna cosa ha anat malament",
+        "resend_timer": "Reenviar disponible en {seconds}s",
+        "new_code_sent": "Nou codi de verificació enviat al teu correu"
+    },
+    "Dashboard": {
+        "card1": "Mapa",
+        "card2": "Perfil",
+        "card3": "Troballes",
+        "card4": "Saber-ne més",
+        "card5": "FAQ's",
+        "card6": "Recomanem",
+        "read_more": "Més informació",
+        "lang1": "Català",
+        "lang2": "Castellà",
+        "lang3": "Anglès",
+        "lang4": "Francès",
+        "complete": "Enhorabona! Has finalitzat l’aventura Els Amics de la Cinglera Basàltica. Si la vols repetir, ves al perfil, on trobaràs el botó per reiniciar.",
+        "keep_playing": "Continua"
+    },
+    "Map": {
+        "first": "PRIMERA",
+        "second": "SEGONA",
+        "third": "TERCERA",
+        "fourth": "QUARTA",
+        "fifth": "CINQUENA",
+        "sixth": "SISENA",
+        "seventh": "SETENA",
+        "eighth": "VUITENA",
+        "ninth": "NOVENA",
+        "title1": "PARADA",
+        "title2": "Els secrets de les víes romanes",
+        "button": "JUGAR",
+        "button1": "MAPA",
+        "button2": "LLISTAT"
+    },
+    "Progress": {
+        "title1": "Hola, ",
+        "title2": "NIVELL ",
+        "title3": "Roques recol lectades",
+        "button1": "PROGRÉS",
+        "title4": "Recompenses del Festival",
+        "title5": "Punts",
+        "title6": "Completa",
+        "button2": "Troballes",
+        "button3": "Reinicia",
+        "confirm": "Confirma",
+        "cancel": "Cancel·la",
+        "confirmMessage": "Esteu segur que voleu reiniciar?"
+    },
+    "Level": {
+        "title1": "Hola, ",
+        "title2": "NIVELL ",
+        "title3": "Roques recol lectades",
+        "button": "NIVELL",
+        "row1": "NIVELL VOLCÀ",
+        "row2": "NIVELL MAGMA",
+        "row3": "NIVELL ROCA",
+        "rowtitle": "Guanya 1000 punts"
+    },
+    "StartQuiz": {
+        "title": "GRAN MAGMA",
+        "description": "Ara ha arribar el moment de comprovar la vostra expertesa sobre l'Imperi Romà contestant la següent pregunta.",
+        "button1": "COMENÇAR"
+    },
+    "Quiz": {
+        "title": "¿Quina d'aquestes frases NO és certa?",
+        "option1": "Els romans van crear llargues vies pavimentades",
+        "option2": "Els romans van construir aqüeductes",
+        "option3": "Els romans van crear 2 coets per anar a la lluna",
+        "option4": "Els romans no van construir aqüeductes"
+    },
+    "DidYouKnow": {
+        "title": "Sabies que?",
+        "description": "Cras eget metus vel risus molestie vehicula. Fusce faucibus nulla libero, ut varius velit cursus ac. Phasellus pellentesque tortor lacus, sit amet ullamcorper augue elementum vitae. Nullam varius luctus dolor in commodo. Donec ut augue vitae justo tristique consequat. Nam non efficitur magna, sit amet venenatis nisl.",
+        "button": "SOM-HI"
+    },
+    "Classification": {
+        "title": "CLASSIFICACIÓ",
+        "tablehead1": "1. Nom",
+        "tablehead2": "2. Cognoms",
+        "tablehead3": "3. Punts",
+        "row1data1": "Craig",
+        "row1data2": "Bloemsma",
+        "row1data3": "1000",
+        "row2data1": "Albert",
+        "row2data2": "Mozé Fàbregasx",
+        "row3data3": "654"
+    },
+    "FAQS": {
+        "title": "FAQ'S",
+        "button1": "AR FAQ",
+        "button2": "JOC FAQ",
+        "button3": "MAPA FAQ",
+        "ar": {
+            "q1": "Què és la realitat augmentada (AR) i com la fem servir aquí?",
+            "a1": "La realitat augmentada és una tecnologia que permet veure elements digitals —com personatges, objectes o escenes— superposats a l'entorn real a través de la càmera del teu mòbil. En aquest joc, es fa servir per veure a en Roc, recol·lectar roques volcàniques i veure les troballes.",
+            "q2": "Cal descarregar cap aplicació?",
+            "a2": "No. Es tracta d'una aplicació web (webapp): només cal que accedeixis a l'enllaç amb el teu navegador (Chrome, Safari...). No cal descarregar res.",
+            "q3": "El meu mòbil és compatible amb la realitat augmentada?",
+            "a3": "Funciona amb la majoria de dispositius recents que disposin de càmera i un navegador actualitzat. Cal que donis permís per accedir a la càmera. Si tens problemes, prova amb un altre navegador o dispositiu.",
+            "q4": "No veig res quan obro la càmera. Què puc fer?",
+            "a4": "Assegura't que:\n\n● Has arribat físicament al punt correcte del mapa (geolocalització).\n● Has donat permís per a l'ús de la càmera.\n● Hi ha prou llum a l'entorn.\nSi continua sense funcionar, tanca i torna a obrir el navegador.",
+            "q5": "Cal connexió a internet per veure l'AR?",
+            "a5": "Sí. La realitat augmentada es carrega al navegador, així que necessites connexió de dades mòbils o Wi-Fi durant l'experiència.",
+            "q6": "És segur utilitzar la realitat augmentada mentre camino?",
+            "a6": "Sí, però cal que estiguis atent a l'entorn físic mentre uses la càmera. No caminis mirant el mòbil i mantén sempre la vista als voltants.",
+            "q7": "Puc fer fotos o vídeos amb l'AR?",
+            "a7": "Sí! Pots fer fotos (captura de pantalla) i enregistrar vídeos amb en Roc i les diferents experiències AR i compartir-ho. És una bona manera de recordar i difondre la teva aventura."
+        },
+        "game": {
+            "q1": "Quin és l'objectiu del joc?",
+            "a1": "L'objectiu és descobrir els secrets amagats de la cinglera basàltica superant reptes en realitat augmentada. Al llarg del recorregut, hauràs de recol·lectar roques volcàniques i aconseguir troballes úniques.",
+            "q2": "Quina diferència hi ha entre una roca i una troballa?",
+            "a2": "Les roques volcàniques són elements naturals que cal recol·lectar mitjançant reptes interactius amb AR.\nLes troballes són els elements culturals o simbòlics que obtens en superar els reptes i els qüestionaris.",
+            "q3": "Com puc aconseguir roques i troballes?",
+            "a3": "Has d'arribar físicament als punts geolocalitzats que apareixen al mapa. Allà, en Roc t'explicarà una història i et proposarà un repte interactiu i una pregunta. Si ho superes, obtindràs les roques i la troballa associada a aquell punt.",
+            "q4": "Què passa si no encerto un repte o una pregunta?",
+            "a4": "Els reptes interactius se superen recol·lectant un nombre determinat de roques volcàniques amb AR. En tots els cas...",
+            "q5": "Cal estar registrat per jugar?",
+            "a5": "Sí, el registre és obligatori per poder participar en el joc, accedir als punts de realitat augmentada i desbloquejar les roques i les troballes. Això ens permet guardar el teu progrés, oferir-te una experiència personalitzada i garantir el bon funcionament del sistema. El registre és ràpid i només cal fer-lo una sola vegada.",
+            "q6": "Puc jugar en grup o amb la meva família?",
+            "a6": "Sí! El joc està pensat per fer-se en grup: amb amics, família o escola. Només cal un mòbil o una tauleta per equip i ganes de descobrir el territori junts.",
+            "q7": "Quant dura tot el joc?",
+            "a7": "Depèn del teu ritme. La ruta completa sol durar entre 60 i 90 minuts, però pots fer-la tota seguida o repartir-la en diferents moments."
+        },
+        "map": {
+            "q1": "Com funciona el mapa del joc?",
+            "a1": "El mapa interactiu mostra els punts geolocalitzats que formen part del recorregut. Només quan arribes físicament a un punt, es desbloqueja el contingut en realitat augmentada.",
+            "q2": "Cal activar la geolocalització del mòbil?",
+            "a2": "Sí. Sense la geolocalització activada, no es pot jugar. El sistema necessita saber on ets per comprovar si t'has desplaçat correctament a cada punt. Et recomanem activar la ubicació abans de començar el recorregut.\n\nCom activar la geolocalització al dispositiu:\n\n**En un mòbil Android**\n1. Obre els Ajustos o Configuració del dispositiu.\n2. Ves a Ubicació o Localització.\n3. Activa l’opció Ubicació.\n4. Assegura’t que el navegador (Chrome, Firefox...) té permís per accedir-hi:\n   - Ajustos > Aplicacions > [Nom del navegador] > Permisos > Ubicació > Permetre sempre o Mentre s’utilitza.\n\n**En un iPhone**\n1. Obre Configuració.\n2. Ves a Privacitat i seguretat > Localització.\n3. Activa els Serveis de localització.\n4. Accedeix a la configuració del navegador (normalment Safari o Chrome).\n5. Comprova que l’opció Ubicació estigui activada com a Durant l’ús.",
+            "q3": "Què faig si el mapa no em detecta correctament?",
+            "a3": "● Comprova que tens la ubicació activada (seguint els passos anteriors).\n● Recarrega la pàgina del navegador.",
+            "q4": "Cal connexió a internet per usar el mapa?",
+            "a4": "Sí. La webapp necessita connexió activa per mostrar el mapa i validar la teva posició. Tot i així, el consum de dades és molt baix.",
+            "q5": "El mapa em diu que no estic al lloc correcte, però sé que hi soc. Què faig?",
+            "a5": "● Mou-te lleugerament per l'entorn: a vegades el senyal GPS triga uns segons.\n● Comprova que no et trobes sota una estructura o dins d'un espai tancat.\n● Assegura't que tens una bona cobertura GPS o de xarxa mòbil.",
+            "q6": "Puc fer el recorregut en qualsevol ordre?",
+            "a6": "No. El recorregut és lineal. Cal seguir l'ordre establert dels punts, ja que cada repte i cada troballa depenen del punt anterior. El mapa només et mostrarà el següent punt desbloquejat, i no podràs avançar si no completes el punt actual."
+        }
+    },
+    "Links": {
+        "GAME": "JOC",
+        "Historical_link": "ARXIU HISTÒRIC",
+        "Award_link": "PREMIS",
+        "Profile_link": "PERFIL",
+        "Ranking_Link": "CLASSIFICACIÓ",
+        "LOGOUT_link": "TANCAR SESSIÓ"
+    },
+    "Auth": {
+        "ForgotPassword": "Has oblidat la contrasenya?",
+        "NoAccount": "No tens un compte?",
+        "CreateAccount": "Crear compte",
+        "HaveAccount": "Ja tens un compte?",
+        "LoginAccount": "Inicia sessió"
+    },
+    "Amics": {
+        "title": "TROBALLES",
+        "description": "Sed nec risus risus. Suspendisse lobortis risus eu velit gravida ornare at ornare ante. Nam malesuada consequat leo et facilisis. Nunc et quam euismod, auctor nulla porta, pretium lacus."
+    },
+    "Head": {
+        "title1": "Menú",
+        "title2": "Accés",
+        "title3": "Sortir"
+    },
+    "Volcano1Quiz1": {
+        "title": "Què apareix a l'escut de la vila?",
+        "option1": "Un castell",
+        "option2": "Una església",
+        "option3": "Un volcà",
+        "option4": "Una espasa"
+    },
+    "Volcano1Quiz2": {
+        "title": "A quin sant està dedicada la torre?",
+        "option1": "Sant Roc",
+        "option2": "Sant Pere",
+        "option3": "Sant Joan",
+        "option4": "Sant Pau"
+    },
+    "Volcano1Quiz3": {
+        "title": "Quin altre nom té aquest lloc?",
+        "option1": "Plaça de Sant Roc",
+        "option2": "Plaça Central",
+        "option3": "Plaça del Mig",
+        "option4": "Plaça de Sant Pere"
+    },
+    "Volcano1Quiz4": {
+        "title": "Quina inscripció hi ha sobre el sant?",
+        "option1": "1885",
+        "option2": "1890",
+        "option3": "1900",
+        "option4": "1901"
+    },
+    "Volcano2Quiz1": {
+        "title": "Quina roca s'extreia de la pedrera?",
+        "option1": "Basalt",
+        "option2": "Conglomerats",
+        "option3": "Gres",
+        "option4": "Granit"
+    },
+    "Volcano2Quiz2": {
+        "title": "D'on ve la roca que veiem aquí?",
+        "option1": "Una colada de lava",
+        "option2": "El riu",
+        "option3": "Un meteorit",
+        "option4": "Una esllavissada"
+    },
+    "Volcano2Quiz3": {
+        "title": "Quina és la professió que treballa amb la pedra?",
+        "option1": "Picapedrer / Canterer",
+        "option2": "Paredador",
+        "option3": "Fuster",
+        "option4": "Arquitecte"
+    },
+    "Volcano2Quiz4": {
+        "title": "Quina forma té la colada de lava davant nostre?",
+        "option1": "Columna",
+        "option2": "Triangle",
+        "option3": "Rodona",
+        "option4": "Quadrada"
+    },
+    "Volcano2Quiz5": {
+        "title": "De quin color és el basalt?",
+        "option1": "Negre o gris",
+        "option2": "Vermellós",
+        "option3": "Grocenc",
+        "option4": "Blanc"
+    },
+    "Volcano3Quiz1": {
+        "title": "Com es diu la plaça on som?",
+        "option1": "Plaça dels Gegants",
+        "option2": "Plaça del Mig",
+        "option3": "Plaça Major",
+        "option4": "Plaça de l'Ajuntament"
+    },
+    "Volcano3Quiz2": {
+        "title": "Com es diuen els gegants de Castellfollit?",
+        "option1": "Roc i Bàrbara",
+        "option2": "Gegant i Geganta",
+        "option3": "Jordi i Maria",
+        "option4": "Pep i Pepa"
+    },
+    "Volcano3Quiz3": {
+        "title": "Què porta la geganta a la mà?",
+        "option1": "Un ram de flors",
+        "option2": "Una cistella",
+        "option3": "Una roca volcànica",
+        "option4": "Una barra de pa"
+    },
+    "Volcano3Quiz4": {
+        "title": "Quina eina porta el gegant?",
+        "option1": "Una espasa",
+        "option2": "Un instrument",
+        "option3": "Una columna de basalt",
+        "option4": "Un ram de flors"
+    },
+    "Volcano3Quiz5": {
+        "title": "Quants arbres hi ha a la plaça?",
+        "option1": "3",
+        "option2": "4",
+        "option3": "5",
+        "option4": "1"
+    },
+    "Volcano3Quiz6": {
+        "title": "Quants cercles podem veure dibuixats a l'escultura?",
+        "option1": "2",
+        "option2": "3",
+        "option3": "4",
+        "option4": "5"
+    },
+    "Volcano4Quiz1": {
+        "title": "Quantes columnes de basalt hi ha a la plaça?",
+        "option1": "10",
+        "option2": "8",
+        "option3": "6",
+        "option4": "1"
+    },
+    "Volcano4Quiz2": {
+        "title": "Quins d'aquests pics es poden veure des del mirador?",
+        "option1": "Bestrecà i Montmajor",
+        "option2": "Puigsacalm",
+        "option3": "Bassegoda",
+        "option4": "Bastiments"
+    },
+    "Volcano4Quiz3": {
+        "title": "Quina figura d'animal està representada al mirador?",
+        "option1": "Ocell",
+        "option2": "Cavall",
+        "option3": "Vaca",
+        "option4": "Papallona"
+    },
+    "Volcano4Quiz4": {
+        "title": "Nomena 3 coses que es poden veure des d'aquí dalt:",
+        "option1": "Riu",
+        "option2": "Cases",
+        "option3": "Muntanyes",
+        "option4": "Carretera"
+    },
+    "Volcano4Quiz5": {
+        "title": "Quina vall s'observa des del mirador?",
+        "option1": "Vall del Fluvià",
+        "option2": "Vall del Bas",
+        "option3": "Vall de Bianya",
+        "option4": "Vall del Ter"
+    },
+    "Volcano4Quiz6": {
+        "title": "Quants xiprers hi ha a la plaça?",
+        "option1": "2",
+        "option2": "4",
+        "option3": "6",
+        "option4": "1"
+    },
+    "Volcano5Quiz1": {
+        "title": "Com es diu l'església del mirador?",
+        "option1": "Sant Salvador",
+        "option2": "Sant Roc",
+        "option3": "Sant Valentí",
+        "option4": "Sant Andreu"
+    },
+    "Volcano5Quiz2": {
+        "title": "De quin color estan pintades les marques del camí a la paret?",
+        "option1": "Groc",
+        "option2": "Blanc i Vermell",
+        "option3": "Verd i Groc",
+        "option4": "Taronja"
+    },
+    "Volcano5Quiz3": {
+        "title": "Quin animal amant del sol podem veure entre les roques de la paret?",
+        "option1": "Sargantana",
+        "option2": "Papallona",
+        "option3": "Cuca de terra",
+        "option4": "Llangardaix verd (Àligot)"
+    },
+    "Volcano5Quiz4": {
+        "title": "Què trobem al costat del camí?",
+        "option1": "Horts / Jardins",
+        "option2": "Edificis",
+        "option3": "Escola",
+        "option4": "Camp de futbol"
+    },
+    "Volcano6Quiz1": {
+        "title": "D'on ve la primera colada de lava?",
+        "option1": "Batet",
+        "option2": "Sant Joan les Fonts",
+        "option3": "Santa Pau",
+        "option4": "Olot"
+    },
+    "Volcano6Quiz2": {
+        "title": "Quin és el riu principal per on va baixar la colada de lava?",
+        "option1": "Fluvià",
+        "option2": "Ter",
+        "option3": "Muga",
+        "option4": "Onyar"
+    },
+    "Volcano6Quiz3": {
+        "title": "Quins dos rius es troben aquí?",
+        "option1": "Fluvià i Turonell",
+        "option2": "Fluvià i Ter",
+        "option3": "Fluvià i Muga",
+        "option4": "Turonell i Muga"
+    },
+    "Volcano6Quiz4": {
+        "title": "Fa quants anys va baixar la primera colada de lava?",
+        "option1": "217.000 anys",
+        "option2": "10.000 anys",
+        "option3": "20.000 anys",
+        "option4": "450.000 anys"
+    },
+    "Volcano6Quiz5": {
+        "title": "Com es diuen els materials que porta el riu?",
+        "option1": "Sediments",
+        "option2": "Blocs",
+        "option3": "Argiles",
+        "option4": "Màrmols"
+    },
+    "Volcano6Quiz6": {
+        "title": "Quin tipus de vegetació hi ha aquí?",
+        "option1": "Bosc de ribera",
+        "option2": "Alzinar / Carrascar",
+        "option3": "Fageda",
+        "option4": "Pineda"
+    },
+    "Volcano7Quiz1": {
+        "title": "Segons el Parc Natural, el penya-segat és un lloc d'...",
+        "option1": "Interès geològic",
+        "option2": "Interès cultural",
+        "option3": "Interès artístic",
+        "option4": "Interès històric"
+    },
+    "Volcano7Quiz2": {
+        "title": "Què causa l'erosió del penya-segat?",
+        "option1": "La vegetació",
+        "option2": "La gelivació (gel-descongelació)",
+        "option3": "El temps / La meteorologia",
+        "option4": "Totes les respostes són correctes"
+    },
+    "Volcano7Quiz3": {
+        "title": "Com es diu la capa de sediments que separa les dues colades de lava?",
+        "option1": "Paleosòl",
+        "option2": "Estrata",
+        "option3": "Penya-segat",
+        "option4": "Capa"
+    },
+    "Volcano7Quiz4": {
+        "title": "Quin edifici tenim a prop?",
+        "option1": "Una fàbrica antiga",
+        "option2": "Escola",
+        "option3": "Ajuntament",
+        "option4": "Pavelló esportiu"
+    },
+    "Volcano7Quiz5": {
+        "title": "Quin d'aquests arbres forma part del bosc de ribera?",
+        "option1": "Salze",
+        "option2": "Pi roig",
+        "option3": "Roure",
+        "option4": "Palmera"
+    },
+    "Volcano8Quiz1": {
+        "title": "Quants metres de profunditat creus que té el penya-segat?",
+        "option1": "10",
+        "option2": "20",
+        "option3": "15",
+        "option4": "25"
+    },
+    "Volcano8Quiz2": {
+        "title": "Com es diu el riu de davant?",
+        "option1": "Muga",
+        "option2": "Ter",
+        "option3": "Fluvià",
+        "option4": "Onyar"
+    },
+    "Volcano8Quiz3": {
+        "title": "A què correspon la capa negra del penya-segat?",
+        "option1": "Una colada de lava",
+        "option2": "Sediment",
+        "option3": "Sòl",
+        "option4": "Cendra volcànica"
+    },
+    "Volcano8Quiz4": {
+        "title": "De quin color és la capa entre les dues colades de lava?",
+        "option1": "Marró",
+        "option2": "Vermell",
+        "option3": "Gris",
+        "option4": "Negre"
+    },
+    "Volcano8Quiz5": {
+        "title": "Quin tipus de roques formen els penya-segats?",
+        "option1": "Basalt",
+        "option2": "Calcària",
+        "option3": "Granit",
+        "option4": "Gres"
+    },
+    "Volcano9Quiz1": {
+        "title": "Com es diu el pic de la dreta?",
+        "option1": "Puigsacalm",
+        "option2": "Montmajor",
+        "option3": "Bassegoda",
+        "option4": "Bestrecà"
+    },
+    "Volcano9Quiz2": {
+        "title": "A quina serralada pertany el Puigsacalm?",
+        "option1": "Les Guilleries",
+        "option2": "Pirineus",
+        "option3": "Alps",
+        "option4": "Montseny"
+    },
+    "Volcano9Quiz3": {
+        "title": "Quina és l'activitat principal a la zona?",
+        "option1": "Senderisme",
+        "option2": "Esquí",
+        "option3": "Pesca",
+        "option4": "Caça"
+    },
+    "Volcano9Quiz4": {
+        "title": "Quin tipus de vegetació predomina aquí?",
+        "option1": "Bosc mediterrani",
+        "option2": "Tundra",
+        "option3": "Bosc alpí",
+        "option4": "Sabana"
+    },
+    "Volcano9Quiz5": {
+        "title": "Quin animal es pot trobar comunament aquí?",
+        "option1": "Senglar",
+        "option2": "Ós",
+        "option3": "Llop",
+        "option4": "Cérvol"
+    },
+    "Mapp": {
+        "button1": "MAPA",
+        "button2": "LLISTAT",
+        "text1": "Municipi",
+        "text2": "Centre d'interpretació Romanticisme",
+        "text3": "Torre Blava - Espai Guinovart"
+    },
+    "QuizPage": {
+        "try_again": "Torna-ho a provar",
+        "finding_1": "Torre del rellotge",
+        "finding_2": "Eines de picapedrer",
+        "finding_3": "Espasa",
+        "finding_4": "Roca basàltica",
+        "finding_5": "Carro",
+        "finding_6": "Reineta",
+        "finding_7": "Salze",
+        "finding_8": "Mallarenga blava",
+        "finding_9": "Trofeu",
+        "description": "Tornem a explorar més PDI! Continua descobrint i interactuant amb cada punt per desbloquejar recompenses, guanyar punts i pujar de nivell. Com més explores, més progressaràs.",
+        "button": "Continua el joc"
+    },
+    "intro": {
+        "title1": "Aquesta experiència de realitat augmentada requereix accés a la càmera i als sensors de moviment del teu dispositiu.",
+        "text1": "Benvingut/da al joc «Els Amics de la Cinglera Basàltica». Escolta en Roc, una roca volcànica d'un volcà de la Garrotxa, que fa milers d'anys que viu a Castellfollit de la Roca.",
+        "title2": "Aquesta experiència de realitat augmentada requereix accés a la càmera i als sensors de moviment del teu dispositiu.",
+        "text2": "Escolta en Roc i troba les roques volcàniques. Toque-les per recollir-les.",
+        "title3": "Aquesta experiència de realitat augmentada requereix accés a la càmera i als sensors de moviment del teu dispositiu.",
+        "text3": "Escolta en Roc i llença les roques volcàniques dins dels volcans.",
+        "button1": "Omet la introducció",
+        "button2": "Continua",
+        "button3": "Experiència AR"
+    },
+    "CoinMap": {
+        "congratulation": "Enhorabona!",
+        "text": "Has arribat amb èxit al teu destí. Ara ets a la distància adequada per experimentar el tresor de realitat augmentada.",
+        "button": "Següent"
+    },
+    "gameText": {
+        "place": "Col·loca l'Avatar",
+        "audioPermission": "Cal permís d'àudio",
+        "cameraPermission": "Cal permís de càmera",
+        "audioAllow": "Permet l'àudio",
+        "Cancel": "Cancel·la",
+        "enableRotation": "Activar rotació",
+        "try_again": "Torna-ho a provar"
+    },
+    "privacyPolicy": {
+        "title": "Política de Privacitat",
+        "sections": {
+            "responsible": {
+                "title": "Responsable del tractament",
+                "content": "En compliment del Reglament (UE) 2016/679 (RGPD) i la Llei Orgànica 3/2018 (LOPDGDD), s' informa que les dades personals facilitades a través de l'aplicació seran tractades sota la responsabilitat següent:",
+                "items": [
+                    "Denominació comercial: Som Experiències",
+                    "Denominació fiscal: Albert Mozó Fàbregas",
+                    "CIF: 45790766C",
+                    "Adreça: Rambla Lluís Companys, 2, 2n 5a, 08800 Vilanova i la Geltrú",
+                    "Nom i NIF de contacte: Albert Mozó Fàbregas – NIF 45790766C",
+                    "Telèfon: 685492584",
+                    "Correu electrònic: info@somexperiencies.cat"
+                ]
+            },
+            "dataCollected": {
+                "title": "Dades recollides",
+                "content": "L'aplicació pot recollir les següents dades personals dels usuaris:",
+                "items": [
+                    "Mitjançant registre amb Google o Microsoft: nom, cognoms i correu electrònic.",
+                    "Mitjançant formulari personalitzat: nom, cognoms, correu electrònic, telèfon i lloc de procedència.",
+                    "Mitjançant permisos del dispositiu: geolocalització (per desbloquejar punts de joc) i accés a la càmera (per a funcionalitats de realitat augmentada)."
+                ]
+            },
+            "purpose": {
+                "title": "Finalitat del tractament",
+                "content": "Les dades es tracten amb les finalitats següents:",
+                "items": [
+                    "Permetre l'accés i ús de l'aplicació i dels seus continguts interactius.",
+                    "Garantir l'activació dels punts de joc i la personalització de l'experiència.",
+                    "Mantenir la seguretat i millorar els serveis oferts.",
+                    "Comunicar novetats o informació relacionada amb l'aplicació, amb consentiment previ de l'usuari."
+                ]
+            },
+            "legalBasis": {
+                "title": "Base legal",
+                "content": "La base jurídica del tractament és el consentiment de l'usuari, atorgat en registrar-se i acceptar aquesta política de privacitat."
+            },
+            "dataRetention": {
+                "title": "Conservació de dades",
+                "content": "Les dades es conservaran únicament mentre sigui necessari per a la prestació del servei i, en tot cas, durant els terminis legalment establerts. No es desen dades de geolocalització ni imatges de la càmera més enllà de l'ús temporal dins el dispositiu."
+            },
+            "dataSharing": {
+                "title": "Comunicació de dades a tercers",
+                "content": "Les dades no seran cedides a tercers excepte en casos d'obligació legal o requeriment per autoritat competent."
+            },
+            "userRights": {
+                "title": "Drets dels usuaris",
+                "content": "Els usuaris poden exercir els seus drets d'accés, rectificació, supressió, oposició, limitació i portabilitat adreçant-se al responsable a través de info@somexperiencies.cat o per correu postal a l'adreça indicada anteriorment."
+            },
+            "effect": {
+                "title": "Efecte",
+                "content": "L'ús de l'aplicació implica l'acceptació expressa i plena de la present política de privacitat. Aquesta política entra en vigor a partir de la seva publicació i serà vigent fins que sigui modificada o actualitzada en aquesta mateixa aplicació."
+            }
+        }
+    }
+}

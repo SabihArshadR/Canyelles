@@ -1,0 +1,645 @@
+{
+  "Login": {
+    "button1": "CONNEXION",
+    "button2": "S'INSCRIRE",
+    "enter_credentials": "Veuillez entrer l'email et le mot de passe",
+    "email_not_verified": "Email non vérifié. Veuillez vérifier votre email d'abord.",
+    "login_success": "Connexion réussie !",
+    "login_failed": "Échec de la connexion. Email ou mot de passe incorrect.",
+    "loading": "Connexion en cours...",
+    "or": "OU",
+    "continue_google": "Continuer avec Google",
+    "continue_microsoft": "Continuer avec Microsoft"
+  },
+  "Register": {
+    "field1": "Prénom",
+    "field2": "Nom de famille",
+    "field3": "E-mail",
+    "field4": "Mot de passe",
+    "field5": "Numéro de téléphone portable",
+    "field6": "Lieu d'origine",
+    "check1": "J'accepte de recevoir des newsletters et des promotions de Node Garraf",
+    "check21": "J'ai lu et j'accepte la",
+    "check22": "Politique de confidentialité",
+    "button1": "S'INSCRIRE",
+    "processing": "Traitement",
+    "button2": "JE SUIS DÉJÀ INSCRIT",
+    "enterPassword": "Veuillez entrer un nouveau mot de passe",
+    "enterEmail": "Veuillez entrer votre e-mail",
+    "resetSuccess": "Réinitialisation du mot de passe réussie !",
+    "resetFailed": "Échec de la réinitialisation du mot de passe",
+    "somethingWrong": "Une erreur est survenue",
+    "resetting": "Réinitialisation...",
+    "resetButton": "Réinitialiser le mot de passe",
+    "placeholder": "Entrez le nouveau mot de passe",
+    "sending": "Envoi...",
+    "sendLink": "Envoyer le lien de réinitialisation",
+    "emailSent": "E-mail de réinitialisation envoyé !",
+    "sendFailed": "Échec de l'envoi de l'e-mail de réinitialisation",
+    "invalidEmail": "Veuillez entrer une adresse e-mail valide.",
+    "invalidPhone": "Le numéro de téléphone ne peut contenir que '+', des chiffres et des espaces.",
+    "termsRequired": "Vous devez accepter les Conditions générales.",
+    "privacyRequired": "Vous devez accepter la Politique de confidentialité.",
+    "registerSuccess": "Inscription réussie. Veuillez vérifier votre e-mail pour le code de vérification.",
+    "updateSuccess": "Informations mises à jour avec succès.",
+    "updateError": "Échec de la mise à jour des informations.",
+    "generalError": "Une erreur s'est produite.",
+    "enterAddress": "Veuillez entrer votre adresse"
+  },
+  "Verify Email": {
+    "verify_email": "Vérifier l'email",
+    "resend_code": "Renvoyer le code",
+    "loading": "Vérification...",
+    "sending": "Envoi...",
+    "enter_full_code": "Veuillez entrer le code complet",
+    "email_verified": "Email vérifié avec succès !",
+    "already_verified": "Utilisateur déjà vérifié",
+    "verification_failed": "Échec de la vérification. Code incorrect",
+    "something_wrong": "🚨 Quelque chose a mal tourné",
+    "resend_timer": "Renvoi disponible dans {seconds}s",
+    "new_code_sent": "Nouveau code de vérification envoyé à votre email"
+  },
+  "Dashboard": {
+    "card1": "Carte",
+    "card2": "Profil",
+    "card3": "Découvertes",
+    "card4": "Connaître",
+    "card5": "FAQ",
+    "card6": "Recommander",
+    "read_more": "Plus d’informations",
+    "lang1": "Catalan",
+    "lang2": "Espagnol",
+    "lang3": "Anglais",
+    "lang4": "Français",
+    "complete": "Félicitations ! Vous avez terminé l'aventure des Amis de la Falaise Basaltique. Si vous souhaitez la recommencer, rendez-vous sur votre profil, où vous trouverez le bouton de redémarrage.",
+    "keep_playing": "Continuer"
+  },
+  "Map": {
+    "first": "PREMIER",
+    "second": "DEUXIÈME",
+    "third": "TROISIÈME",
+    "fourth": "QUATRIÈME",
+    "fifth": "CINQUIÈME",
+    "sixth": "SIXIÈME",
+    "seventh": "SEPTIÈME",
+    "eighth": "HUITIÈME",
+    "ninth": "NEUVIÈME",
+    "title1": "ARRÊT",
+    "title2": "Les secrets des routes romaines",
+    "button": "JOUER"
+  },
+  "Progress": {
+    "title1": "Bonjour, ",
+    "title2": "NIVEAU ",
+    "title3": "Points totaux",
+    "button1": "PROGRÈS",
+    "title4": "Récompenses du festival",
+    "title5": "Points",
+    "title6": "Terminé",
+    "button2": "DÉCOUVERTES",
+    "button3": "Redémarrage",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "confirmMessage": "Etes-vous sûr de vouloir redémarrer ?"
+  },
+  "Level": {
+    "title1": "Bonjour, ",
+    "title2": "NIVEAU ",
+    "title3": "Points totaux",
+    "button": "NIVEAU",
+    "row1": "NIVEAU VOLCAN",
+    "row2": "NIVEAU MAGMA",
+    "row3": "NIVEAU ROCHE",
+    "rowtitle": "Gagner 1000 points"
+  },
+  "StartQuiz": {
+    "title": "GRAND MAGMA",
+    "description": "C'est maintenant le moment de tester vos connaissances sur l'Empire romain en répondant à la question suivante.",
+    "button1": "COMMENCER"
+  },
+  "Quiz": {
+    "title": "Laquelle de ces affirmations n'est PAS vraie ?",
+    "option1": "Les Romains ont construit de longues routes pavées",
+    "option2": "Les Romains ont construit des aqueducs",
+    "option3": "Les Romains ont construit 2 fusées pour aller sur la lune",
+    "option4": "Les Romains n'ont pas construit d'aqueducs"
+  },
+  "DidYouKnow": {
+    "title": "Le saviez-vous ?",
+    "description": "Demain appartient à ceux qui le construisent aujourd'hui. Restez fort avec un objectif, et ne laissez aucune peur obscurcir votre esprit. La force naît de la persévérance et de l'unité.",
+    "button": "ALLONS-Y"
+  },
+  "Classification": {
+    "title": "CLASSEMENT",
+    "tablehead1": "Prénom",
+    "tablehead2": "Nom de famille",
+    "tablehead3": "Points",
+    "row1data1": "Craig",
+    "row1data2": "Bloemsma",
+    "row1data3": "1000",
+    "row2data1": "Albert",
+    "row2data2": "Mozé Fàbregasx",
+    "row3data3": "654"
+  },
+  "FAQS": {
+    "title": "FAQ'S",
+    "button1": "AR FAQ",
+    "button2": "JEU FAQ",
+    "button3": "CARTE FAQ",
+    "ar": {
+      "q1": "Qu'est-ce que la réalité augmentée (RA) et comment l'utilisons-nous ici ?",
+      "a1": "La réalité augmentée est une technologie qui permet de superposer des éléments numériques, tels que des personnages, des objets ou des scènes, à l'environnement réel à travers la caméra de votre mobile. Dans ce jeu, elle est utilisée pour voir Roc, collecter des roches volcaniques et découvrir les trouvailles.",
+      "q2": "Dois-je télécharger une application ?",
+      "a2": "Non. Il s'agit d'une application web : il suffit d'accéder au lien via votre navigateur (Chrome, Safari...). Rien ne doit être téléchargé.",
+      "q3": "Mon téléphone est-il compatible avec la RA ?",
+      "a3": "Cela fonctionne avec la plupart des appareils récents équipés d'une caméra et d'un navigateur à jour. Vous devez autoriser l'accès à la caméra. En cas de problème, essayez un autre navigateur ou appareil.",
+      "q4": "Je ne vois rien lorsque j'ouvre la caméra. Que puis-je faire ?",
+      "a4": "Assurez-vous que :\n\n● Vous êtes physiquement au bon point sur la carte (géolocalisation).\n● Vous avez autorisé l'accès à la caméra.\n● Il y a suffisamment de lumière autour.\nSi cela ne fonctionne toujours pas, fermez et rouvrez le navigateur.",
+      "q5": "Faut-il une connexion internet pour utiliser la RA ?",
+      "a5": "Oui. La RA se charge dans le navigateur, vous avez donc besoin de données mobiles ou d'une connexion Wi-Fi pendant l'expérience.",
+      "q6": "Est-il sûr d'utiliser la RA en marchant ?",
+      "a6": "Oui, mais soyez attentif à votre environnement lorsque vous utilisez la caméra. Ne marchez pas en regardant votre téléphone et gardez toujours un œil sur ce qui vous entoure.",
+      "q7": "Puis-je prendre des photos ou des vidéos avec la RA ?",
+      "a7": "Oui ! Vous pouvez prendre des captures d'écran et enregistrer des vidéos avec Roc et les différentes expériences de RA, puis les partager. C'est un excellent moyen de conserver et de partager votre aventure."
+    },
+    "game": {
+      "q1": "Quel est l'objectif du jeu ?",
+      "a1": "L'objectif est de découvrir les secrets cachés de la falaise de basalte en relevant des défis de RA. En chemin, vous collecterez des roches volcaniques et obtiendrez des trouvailles uniques.",
+      "q2": "Quelle est la différence entre une roche et une trouvaille ?",
+      "a2": "Les roches volcaniques sont des éléments naturels collectés via des défis interactifs en RA.\nLes trouvailles sont des objets culturels ou symboliques obtenus en complétant les défis et les quiz.",
+      "q3": "Comment collecter des roches et des trouvailles ?",
+      "a3": "Vous devez atteindre physiquement les points géolocalisés sur la carte. Là, Roc racontera une histoire et vous proposera un défi interactif et une question. Si vous les réussissez, vous recevrez les roches et la trouvaille pour ce point.",
+      "q4": "Que se passe-t-il si j'échoue à un défi ou à une question ?",
+      "a4": "Les défis interactifs sont réussis en collectant un certain nombre de roches volcaniques avec la RA. Dans tous les cas...",
+      "q5": "Dois-je m'inscrire pour jouer ?",
+      "a5": "Oui, l'inscription est requise pour participer au jeu, accéder aux points de RA et débloquer des roches et des trouvailles. Cela permet de sauvegarder votre progression, personnaliser l'expérience et assurer le bon fonctionnement du système. L'inscription est rapide et ne doit être faite qu'une seule fois.",
+      "q6": "Puis-je jouer en groupe ou avec ma famille ?",
+      "a6": "Oui ! Le jeu est conçu pour être joué en groupe : avec des amis, en famille ou à l'école. Vous n'avez besoin que d'un téléphone ou d'une tablette par équipe et de l'envie d'explorer ensemble.",
+      "q7": "Combien de temps dure le jeu ?",
+      "a7": "Cela dépend de votre rythme. Le parcours complet prend généralement entre 60 et 90 minutes, mais vous pouvez le faire en une seule fois ou le répartir dans le temps."
+    },
+    "map": {
+      "q1": "Comment fonctionne la carte du jeu ?",
+      "a1": "La carte interactive affiche les points géolocalisés le long du parcours. Le contenu en RA ne se débloque que lorsque vous atteignez physiquement un point.",
+      "q2": "La géolocalisation est-elle requise sur mon téléphone ?",
+      "a2": "Oui. Sans la géolocalisation activée, vous ne pouvez pas jouer. Le système doit connaître votre position pour vérifier que vous avez atteint chaque point. Nous recommandons d'activer la localisation avant de commencer.\n\nComment activer la géolocalisation :\n\n**Sur Android :**\n1. Ouvrez les paramètres de votre appareil.\n2. Allez dans Localisation.\n3. Activez la localisation.\n4. Assurez-vous que votre navigateur a les permissions de localisation :\n - Paramètres > Applications > [Nom du navigateur] > Permissions > Localisation > Autoriser toujours ou Pendant l'utilisation.\n\n**Sur iPhone :**\n1. Ouvrez les Réglages.\n2. Allez dans Confidentialité et sécurité > Services de localisation.\n3. Activez les services de localisation.\n4. Vérifiez les paramètres de votre navigateur (Safari ou Chrome).\n5. Assurez-vous que la localisation est autorisée pendant l'utilisation.",
+      "q3": "Et si la carte ne me détecte pas correctement ?",
+      "a3": "● Assurez-vous que votre localisation est activée (voir les étapes ci-dessus).\n● Rafraîchissez la page de votre navigateur.",
+      "q4": "Faut-il une connexion internet pour utiliser la carte ?",
+      "a4": "Oui. L'application web nécessite une connexion active pour afficher la carte et vérifier votre position. Cependant, l'utilisation des données est très faible.",
+      "q5": "La carte indique que je ne suis pas au bon endroit, mais j'y suis. Que puis-je faire ?",
+      "a5": "● Déplacez-vous légèrement dans la zone : parfois, le GPS a besoin de quelques secondes.\n● Assurez-vous de ne pas être sous une structure ou à l'intérieur.\n● Vérifiez que vous avez un bon signal GPS ou mobile.",
+      "q6": "Puis-je faire le parcours dans n'importe quel ordre ?",
+      "a6": "Non. Le parcours est linéaire. Vous devez suivre l'ordre établi des points, car chaque défi et trouvaille dépend du point précédent. La carte n'affichera que le prochain point débloqué, vous ne pouvez pas avancer sans compléter le point actuel."
+    }
+  },
+  "Auth": {
+    "ForgotPassword": "Mot de passe oublié ?",
+    "NoAccount": "Vous n'avez pas de compte ?",
+    "CreateAccount": "Créer un compte",
+    "HaveAccount": "Vous avez déjà un compte ?",
+    "LoginAccount": "Se connecter"
+  },
+  "Amics": {
+    "title": "DÉCOUVERTES",
+    "description": "Ne sois pas triste. Laisse le chagrin passer doucement, car le passé est révolu. Accueille le présent avec courage et sérénité. Laisse l'espoir guider tes pas et l'amour te rendre fort."
+  },
+  "Links": {
+    "GAME": "JEU",
+    "Historical_link": "ARCHIVE HISTORIQUE",
+    "Award_link": "PRIX / RÉCOMPENSES",
+    "Profile_link": "PROFIL",
+    "Ranking_Link": "CLASSEMENT",
+    "LOGOUT_link": "DÉCONNEXION"
+  },
+  "Head": {
+    "title1": "Menu",
+    "title2": "Accès",
+    "title3": "Déconnexion"
+  },
+  "Volcano1Quiz1": {
+    "title": "Que trouve-t-on sur les armoiries de la ville ?",
+    "option1": "Un château",
+    "option2": "Une église",
+    "option3": "Un volcan",
+    "option4": "Une épée"
+  },
+  "Volcano1Quiz2": {
+    "title": "À quel saint la tour est-elle dédiée ?",
+    "option1": "Saint Roch",
+    "option2": "Saint Pierre",
+    "option3": "Saint Jean",
+    "option4": "Saint Paul"
+  },
+  "Volcano1Quiz3": {
+    "title": "Quel autre nom ce lieu porte-t-il ?",
+    "option1": "Place Saint-Roch",
+    "option2": "Place Centrale",
+    "option3": "Place du Milieu",
+    "option4": "Place Saint-Pierre"
+  },
+  "Volcano1Quiz4": {
+    "title": "Quelle inscription se trouve au-dessus du saint ?",
+    "option1": "1885",
+    "option2": "1890",
+    "option3": "1900",
+    "option4": "1901"
+  },
+  "Volcano2Quiz1": {
+    "title": "Quelle roche était extraite de la carrière ?",
+    "option1": "Basalte",
+    "option2": "Conglomérats",
+    "option3": "Grès",
+    "option4": "Granit"
+  },
+  "Volcano2Quiz2": {
+    "title": "D'où vient la roche que nous voyons ici ?",
+    "option1": "Une coulée de lave",
+    "option2": "La rivière",
+    "option3": "Une météorite",
+    "option4": "Un glissement de terrain"
+  },
+  "Volcano2Quiz3": {
+    "title": "Quelle est la profession qui travaille la pierre ?",
+    "option1": "Tailleur de pierre",
+    "option2": "Maçon",
+    "option3": "Menuisier",
+    "option4": "Architecte"
+  },
+  "Volcano2Quiz4": {
+    "title": "Quelle forme a la coulée de lave devant nous ?",
+    "option1": "Colonne",
+    "option2": "Triangle",
+    "option3": "Ronde",
+    "option4": "Carrée"
+  },
+  "Volcano2Quiz5": {
+    "title": "De quelle couleur est le basalte ?",
+    "option1": "Noir ou gris",
+    "option2": "Rougeâtre",
+    "option3": "Jaunâtre",
+    "option4": "Blanc"
+  },
+  "Volcano3Quiz1": {
+    "title": "Comment s'appelle la place sur laquelle nous nous trouvons ?",
+    "option1": "Place des Géants",
+    "option2": "Plaine du Milieu",
+    "option3": "Place Principale",
+    "option4": "Place de la Mairie"
+  },
+  "Volcano3Quiz2": {
+    "title": "Comment s'appellent les géants de Castellfollit ?",
+    "option1": "Roc et Barbara",
+    "option2": "Géant et Géante",
+    "option3": "Jordi et Maria",
+    "option4": "Pep et Pepa"
+  },
+  "Volcano3Quiz3": {
+    "title": "Que tient la géante dans sa main ?",
+    "option1": "Un bouquet de fleurs",
+    "option2": "Un panier",
+    "option3": "Une roche volcanique",
+    "option4": "Une miche de pain"
+  },
+  "Volcano3Quiz4": {
+    "title": "Quel outil le géant tient-il ?",
+    "option1": "Une épée",
+    "option2": "Un instrument",
+    "option3": "Une colonne de basalte",
+    "option4": "Un bouquet de fleurs"
+  },
+  "Volcano3Quiz5": {
+    "title": "Combien d'arbres y a-t-il sur la place ?",
+    "option1": "3",
+    "option2": "4",
+    "option3": "5",
+    "option4": "1"
+  },
+  "Volcano3Quiz6": {
+    "title": "Combien de cercles peut-on voir dessinés sur la sculpture ?",
+    "option1": "2",
+    "option2": "3",
+    "option3": "4",
+    "option4": "5"
+  },
+  "Volcano4Quiz1": {
+    "title": "Combien de colonnes de basalte y a-t-il sur la place ?",
+    "option1": "10",
+    "option2": "8",
+    "option3": "6",
+    "option4": "1"
+  },
+  "Volcano4Quiz2": {
+    "title": "Lequel de ces sommets peut-on voir depuis le point de vue ?",
+    "option1": "Bestrecà et Montmajor",
+    "option2": "Puigsacalm",
+    "option3": "Bassegoda",
+    "option4": "Bastiments"
+  },
+  "Volcano4Quiz3": {
+    "title": "Quelle figure animale est représentée au point de vue ?",
+    "option1": "Oiseau",
+    "option2": "Cheval",
+    "option3": "Vache",
+    "option4": "Papillon"
+  },
+  "Volcano4Quiz4": {
+    "title": "Nommez 3 choses que vous pouvez voir d'ici :",
+    "option1": "Rivière",
+    "option2": "Maisons",
+    "option3": "Montagnes",
+    "option4": "Route"
+  },
+  "Volcano4Quiz5": {
+    "title": "Quelle vallée observe-t-on depuis le point de vue ?",
+    "option1": "Vallée du Fluvià",
+    "option2": "Vallée du Bas",
+    "option3": "Vallée de Bianya",
+    "option4": "Vallée du Ter"
+  },
+  "Volcano4Quiz6": {
+    "title": "Combien de cyprès y a-t-il sur la place ?",
+    "option1": "2",
+    "option2": "4",
+    "option3": "6",
+    "option4": "1"
+  },
+  "Volcano5Quiz1": {
+    "title": "Comment s'appelle l'église au point de vue ?",
+    "option1": "Saint Sauveur",
+    "option2": "Saint Roch",
+    "option3": "Saint Valentin",
+    "option4": "Saint André"
+  },
+  "Volcano5Quiz2": {
+    "title": "De quelle couleur sont les marques du sentier peintes sur le mur ?",
+    "option1": "Jaune",
+    "option2": "Blanc et Rouge",
+    "option3": "Vert et Jaune",
+    "option4": "Orange"
+  },
+  "Volcano5Quiz3": {
+    "title": "Quel animal aimant le soleil peut-on voir parmi les roches du mur ?",
+    "option1": "Lézard",
+    "option2": "Papillon",
+    "option3": "Ver de terre",
+    "option4": "Lézard vert (Aligot)"
+  },
+  "Volcano5Quiz4": {
+    "title": "Que trouve-t-on à côté du sentier ?",
+    "option1": "Jardins",
+    "option2": "Bâtiments",
+    "option3": "École",
+    "option4": "Terrain de football"
+  },
+  "Volcano6Quiz1": {
+    "title": "D'où vient la première coulée de lave ?",
+    "option1": "Batet",
+    "option2": "Sant Joan les Fonts",
+    "option3": "Santa Pau",
+    "option4": "Olot"
+  },
+  "Volcano6Quiz2": {
+    "title": "Quelle est la rivière principale dans laquelle la coulée de lave est descendue ?",
+    "option1": "Fluvià",
+    "option2": "Ter",
+    "option3": "Muga",
+    "option4": "Onyar"
+  },
+  "Volcano6Quiz3": {
+    "title": "Quelles deux rivières se rencontrent ici ?",
+    "option1": "Fluvià et Turonell",
+    "option2": "Fluvià et Ter",
+    "option3": "Fluvià et Muga",
+    "option4": "Turonell et Muga"
+  },
+  "Volcano6Quiz4": {
+    "title": "Il y a combien d'années la première coulée de lave est-elle descendue ?",
+    "option1": "217 000 ans",
+    "option2": "10 000 ans",
+    "option3": "20 000 ans",
+    "option4": "450 000 ans"
+  },
+  "Volcano6Quiz5": {
+    "title": "Comment s'appellent les matériaux transportés par la rivière ?",
+    "option1": "Sédiments",
+    "option2": "Blocs",
+    "option3": "Argiles",
+    "option4": "Marbres"
+  },
+  "Volcano6Quiz6": {
+    "title": "Quel type de végétation trouve-t-on ici ?",
+    "option1": "Forêt riparienne / riveraine",
+    "option2": "Forêt de chênes",
+    "option3": "Hêtraie",
+    "option4": "Forêt de pins"
+  },
+  "Volcano7Quiz1": {
+    "title": "Selon le Parc Naturel, la falaise est un lieu d'...",
+    "option1": "Intérêt géologique",
+    "option2": "Intérêt culturel",
+    "option3": "Intérêt artistique",
+    "option4": "Intérêt historique"
+  },
+  "Volcano7Quiz2": {
+    "title": "Qu'est-ce qui cause l'érosion de la falaise ?",
+    "option1": "La végétation",
+    "option2": "Le gel-dégel",
+    "option3": "La météo",
+    "option4": "Toutes les réponses sont correctes"
+  },
+  "Volcano7Quiz3": {
+    "title": "Comment s'appelle la couche de sédiments qui sépare les deux coulées de lave ?",
+    "option1": "Paléosol",
+    "option2": "Strate",
+    "option3": "Falaise",
+    "option4": "Couche"
+  },
+  "Volcano7Quiz4": {
+    "title": "Quel bâtiment avons-nous à proximité ?",
+    "option1": "Une ancienne usine",
+    "option2": "École",
+    "option3": "Mairie",
+    "option4": "Gymnase"
+  },
+  "Volcano7Quiz5": {
+    "title": "Lequel de ces arbres fait partie de la forêt riveraine ?",
+    "option1": "Saule",
+    "option2": "Pin rouge",
+    "option3": "Chêne",
+    "option4": "Palmier"
+  },
+  "Volcano8Quiz1": {
+    "title": "À combien de mètres de profondeur pensez-vous que la falaise soit ?",
+    "option1": "10",
+    "option2": "20",
+    "option3": "15",
+    "option4": "25"
+  },
+  "Volcano8Quiz2": {
+    "title": "Comment s'appelle la rivière en face ?",
+    "option1": "Muga",
+    "option2": "Ter",
+    "option3": "Fluvià",
+    "option4": "Onyar"
+  },
+  "Volcano8Quiz3": {
+    "title": "À quoi correspond la couche noire sur la falaise ?",
+    "option1": "Une coulée de lave",
+    "option2": "Sédiment",
+    "option3": "Sol",
+    "option4": "Cendre volcanique"
+  },
+  "Volcano8Quiz4": {
+    "title": "De quelle couleur est la couche entre les deux coulées de lave ?",
+    "option1": "Marron",
+    "option2": "Rouge",
+    "option3": "Gris",
+    "option4": "Noir"
+  },
+  "Volcano8Quiz5": {
+    "title": "Quel type de roches compose les falaises ?",
+    "option1": "Basalte",
+    "option2": "Calcaire",
+    "option3": "Granit",
+    "option4": "Grès"
+  },
+  "Volcano9Quiz1": {
+    "title": "Comment s'appelle le pic sur la droite ?",
+    "option1": "Puigsacalm",
+    "option2": "Montmajor",
+    "option3": "Bassegoda",
+    "option4": "Bestrecà"
+  },
+  "Volcano9Quiz2": {
+    "title": "À quelle chaîne de montagnes appartient le Puigsacalm ?",
+    "option1": "Les Guilleries",
+    "option2": "Pyrénées",
+    "option3": "Alpes",
+    "option4": "Montseny"
+  },
+  "Volcano9Quiz3": {
+    "title": "Quelle est l'activité principale dans la région ?",
+    "option1": "Randonnée",
+    "option2": "Ski",
+    "option3": "Pêche",
+    "option4": "Chasse"
+  },
+  "Volcano9Quiz4": {
+    "title": "Quel type de végétation prédomine ici ?",
+    "option1": "Forêt méditerranéenne",
+    "option2": "Toundra",
+    "option3": "Forêt alpine",
+    "option4": "Savane"
+  },
+  "Volcano9Quiz5": {
+    "title": "Quel animal peut-on communément trouver ici ?",
+    "option1": "Sanglier",
+    "option2": "Ours",
+    "option3": "Loup",
+    "option4": "Cerf"
+  },
+  "Mapp": {
+    "button1": "CARTE",
+    "button2": "LISTE",
+    "text1": "Commune",
+    "text2": "Centre d'interprétation du Romantisme",
+    "text3": "Tour Blava - Espace Guinovart"
+  },
+  "QuizPage": {
+    "try_again": "Essayer à nouveau",
+    "finding_1": "Tour de l’horloge",
+    "finding_2": "Outils de tailleur de pierre",
+    "finding_3": "Épée",
+    "finding_4": "Roche basaltique",
+    "finding_5": "Chariot",
+    "finding_6": "Rainette (grenouille)",
+    "finding_7": "Saule",
+    "finding_8": "Mésange bleue",
+    "finding_9": "Trophée",
+    "description": "Retour à l'exploration de nouveaux points d'intérêt! Découvrez et interagissez avec chaque point pour débloquer des récompenses, gagner des points et progresser. Plus vous explorez, plus vous progressez.",
+    "button": "Continuez le jeu"
+  },
+  "intro": {
+    "title1": "Cette expérience de réalité augmentée nécessite l'accès à l'appareil photo et aux capteurs de mouvement de votre appareil.",
+    "text1": "Bienvenue dans le jeu « Les Amis de la Falaise Basaltique ». Écoutez Roc, une roche volcanique d'un volcan de La Garrotxa, qui vit à Castellfollit de la Roca depuis des milliers d'années.",
+    "title2": "Cette expérience de réalité augmentée nécessite l'accès à l'appareil photo et aux capteurs de mouvement de votre appareil.",
+    "text2": "Écoutez Roc et trouvez les roches volcaniques. Touchez-les pour les collecter.",
+    "title3": "Cette expérience de réalité augmentée nécessite l'accès à l'appareil photo et aux capteurs de mouvement de votre appareil.",
+    "text3": "Écoutez Roc et lancez les roches volcaniques dans les volcans.",
+    "button1": "Passer l'introduction",
+    "button2": "Continuer",
+    "button3": "Expérience AR"
+  },
+  "CoinMap": {
+    "congratulation": "Félicitations !",
+    "text": "Vous êtes arrivé à destination avec succès. Vous êtes maintenant à portée pour découvrir le trésor en réalité augmentée.",
+    "button": "Suivant"
+  },
+  "gameText": {
+    "place": "Placer l'Avatar",
+    "audioPermission": "Autorisation audio requise",
+    "cameraPermission": "Autorisation caméra requise",
+    "audioAllow": "Autoriser l'audio",
+    "Cancel": "Annuler",
+    "enableRotation": "Activer la rotation",
+    "try_again": "Réessayer"
+  },
+  "privacyPolicy": {
+    "title": "Politique de Confidentialité",
+    "sections": {
+      "responsible": {
+        "title": "Responsable du traitement",
+        "content": "En conformité avec le Règlement (UE) 2016/679 (RGPD) et la Loi Organique 3/2018 (LOPDGDD), il est porté à votre connaissance que les données personnelles fournies via l'application seront traitées sous la responsabilité de l'entité suivante :",
+        "items": [
+          "Nom commercial : Som Experiències",
+          "Nom fiscal : Albert Mozó Fàbregas",
+          "NIF : 45790766C",
+          "Adresse : Rambla Lluís Companys, 2, 2n 5a, 08800 Vilanova i la Geltrú",
+          "Nom et NIF du contact : Albert Mozó Fàbregas – NIF 45790766C",
+          "Téléphone : 685492584",
+          "Email : info@somexperiencies.cat"
+        ]
+      },
+      "dataCollected": {
+        "title": "Données collectées",
+        "content": "L'application peut collecter les données personnelles suivantes auprès des utilisateurs :",
+        "items": [
+          "Via l'inscription avec Google ou Microsoft : nom, prénom et adresse e-mail.",
+          "Via un formulaire personnalisé : nom, prénom, adresse e-mail, téléphone et lieu de provenance.",
+          "Via les permissions de l'appareil : géolocalisation (pour débloquer les points de jeu) et accès à la caméra (pour les fonctionnalités de réalité augmentée)."
+        ]
+      },
+      "purpose": {
+        "title": "Finalité du traitement",
+        "content": "Les données sont traitées aux fins suivantes :",
+        "items": [
+          "Permettre l'accès et l'utilisation de l'application et de ses contenus interactifs.",
+          "Garantir l'activation des points de jeu et la personnalisation de l'expérience.",
+          "Maintenir la sécurité et améliorer les services offerts.",
+          "Communiquer des nouveautés ou des informations liées à l'application, avec le consentement préalable de l'utilisateur."
+        ]
+      },
+      "legalBasis": {
+        "title": "Base légale",
+        "content": "La base juridique du traitement est le consentement de l'utilisateur, accordé lors de l'inscription et de l'acceptation de cette politique de confidentialité."
+      },
+      "dataRetention": {
+        "title": "Conservation des données",
+        "content": "Les données seront conservées uniquement pendant la durée nécessaire à la prestation du service et, en tout état de cause, pendant les délais légalement établis. Les données de géolocalisation et les images de la caméra ne sont pas sauvegardées au-delà de l'usage temporaire sur l'appareil."
+      },
+      "dataSharing": {
+        "title": "Communication des données à des tiers",
+        "content": "Les données ne seront pas cédées à des tiers, sauf en cas d'obligation légale ou de demande d'une autorité compétente."
+      },
+      "userRights": {
+        "title": "Droits des utilisateurs",
+        "content": "Les utilisateurs peuvent exercer leurs droits d'accès, de rectification, de suppression, d'opposition, de limitation et de portabilité en contactant le responsable à l'adresse info@somexperiencies.cat ou par courrier postal à l'adresse indiquée ci-dessus."
+      },
+      "effect": {
+        "title": "Effet",
+        "content": "L'utilisation de l'application implique l'acceptation expresse et pleine de la présente politique de confidentialité. Cette politique entre en vigueur à partir de sa date de publication et restera valable jusqu'à ce qu'elle soit modifiée ou mise à jour dans cette même application."
+      }
+    }
+  }
+}
