@@ -10,8 +10,8 @@ const CustomPhoneInput: React.FC<CustomInputProps> = ({
   ...props
 }) => {
   return (
-    <div className="flex border-2 border-primary rounded-[8px] overflow-hidden w-full bg-white">
-      <div className="bg-primary flex items-center justify-center px-3">
+    <div className="flex border-2 border-darkblue rounded-[8px] overflow-hidden w-full bg-white">
+      <div className="bg-darkblue flex items-center justify-center px-3">
         <span className="text-white text-xs">▼</span>
       </div>
 

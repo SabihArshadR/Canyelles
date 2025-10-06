@@ -16,10 +16,10 @@ const Dyk = () => {
         <Image src={Logo} alt="Logo" className="w-[430px] h-[349px] object-cover"/>
       </div>
 
-      <h1 className="text-primary mt-[25px] text-5xl font-semibold ml-[25px]">
+      <h1 className="text-darkblue mt-[25px] text-5xl font-semibold ml-[25px] font-gluten">
         {t("title")}
       </h1>
-      <p className="text-secondary px-[32px] mt-5 text-[16px]">
+      <p className="text-darkblue px-[32px] mt-5 text-[16px]">
         {t("description")}
       </p>
       <div className="w-full px-[15px]">

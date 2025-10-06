@@ -56,7 +56,7 @@ const Classification = () => {
   if (loading) return (<Loading />);
   return (
     <div className="min-h-[80vh] bg-white">
-      <div className="bg-lightgreen w-full flex h-[100px] items-center justify-center">
+      <div className="bg-pink w-full flex h-[100px] items-center justify-center font-gluten">
         <h1 className="text-[26px] font-semibold text-white text-center">
           {t("title")}
         </h1>
@@ -64,7 +64,7 @@ const Classification = () => {
       <div className="w-full">
         <div
           className="grid grid-cols-3 bg-transparentt text-center border-b
-         border-secondary text-primary font-semibold py-3 pl-[13px] text-lg"
+         border-darkblue text-darkblue font-semibold py-3 pl-[13px] text-lg"
         >
           <div className="text-left">{t("tablehead1")}</div>
           <div>{t("tablehead2")}</div>
@@ -73,7 +73,7 @@ const Classification = () => {
         {users?.map((user) => (
           <div
             key={user._id}
-            className="grid grid-cols-3 border-b border-secondary pl-[16px] text-center text-secondary text-lg py-[22px]"
+            className="grid grid-cols-3 border-b border-darkblue pl-[16px] text-center text-darkblue text-lg py-[22px]"
           >
             <div className="text-left">{user.firstName}</div>
             <div className="truncate">{user.lastName|| "na"}</div>

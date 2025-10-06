@@ -2,13 +2,14 @@
 import React, { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
-import Map from "@/assets/icon_map 2.svg";
-import Profile from "@/assets/icon_profile 2.svg";
-import Amics from "@/assets/icon_amics 2.svg";
-import Axe from "@/assets/icon_knowmore 2.svg";
-import Faq from "@/assets/icon_faqs 2.svg";
-import Direction from "@/assets/icon_recomanations 2.svg";
-import Logo from "@/assets/tactica.jpg";
+import Map from "@/assets/icon_files.png";
+import Profile from "@/assets/icon_profile.png";
+import Amics from "@/assets/icon_bag.png";
+import Axe from "@/assets/icon_map.png";
+import Faq from "@/assets/icon_faq.png";
+import Direction from "@/assets/icon_city_hall.png";
+// import Logo from "@/assets/tactica.jpg";
+import Logo from "@/assets/render01.jpg";
 import Card from "../ui/Card";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
@@ -87,7 +88,7 @@ const Dashboard = () => {
             className="object-cover h-[329px] w-[530px] object-[50%_36%]"
           />
         </div>
-        <div className="flex justify-between mt-[33px] px-4 gap-4">
+        <div className="flex justify-between mt-[33px] px-4 gap-4 font-gluten">
           <Card
             onClick={() => {
               if (user && user.POIsCompleted === 9) setShowCompletePopup(true);
@@ -95,7 +96,7 @@ const Dashboard = () => {
             }}
           >
             <Image src={Map} alt="Map Icon" />
-            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-secondary">
+            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
               {t("card1")}
             </h1>
             {status === "authenticated" && <div className="w-[15px] h-[15px] rounded-full bg-red-600 absolute top-2 right-2  animate-pulse"></div>}
@@ -106,7 +107,7 @@ const Dashboard = () => {
             }}
           >
             <Image src={Profile} alt="Profile Icon" />
-            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-secondary">
+            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
               {t("card2")}
             </h1>
           </Card>
@@ -116,16 +117,16 @@ const Dashboard = () => {
             }}
           >
             <Image src={Amics} alt="Friends Icon" />
-            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-secondary">
+            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
               {t("card3")}
             </h1>
             {status === "authenticated" && <div className="w-[15px] h-[15px] rounded-full bg-red-600 absolute top-2 right-2  animate-pulse"></div>}
           </Card>
         </div>
-        <div className="flex justify-between mt-5 px-4 gap-4">
+        <div className="flex justify-between mt-5 px-4 gap-4 font-gluten">
           <Card onClick={() => { setShowMorePopup(true); }}>
             <Image src={Axe} alt="Know More Icon" />
-            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-secondary">
+            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
               {t("card4")}
             </h1>
           </Card>
@@ -135,7 +136,7 @@ const Dashboard = () => {
             }}
           >
             <Image src={Faq} alt="FAQs Icon" />
-            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-secondary">
+            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
               {t("card5")}
             </h1>
           </Card>
@@ -143,7 +144,7 @@ const Dashboard = () => {
             window.open("/Recomanem/infografia-amics-cinglera.pdf", "_blank");
           }}>
             <Image src={Direction} alt="Recommendations Icon" />
-            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-secondary">
+            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
               {t("card6")}
             </h1>
           </Card>

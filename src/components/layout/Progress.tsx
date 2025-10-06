@@ -98,7 +98,7 @@ const Progress = () => {
 
   return (
     <div className="flex flex-col items-center justify-center bg-white">
-      <h1 className="text-[22px] font-semibold text-secondary mt-10">
+      <h1 className="text-[22px] font-semibold text-darkblue mt-10">
         {t("title1")} {user?.firstName}
       </h1>
 
@@ -106,18 +106,18 @@ const Progress = () => {
         <Image src={getLevelIcon()} alt="Level Icon" width={96} height={96} />
       </div>
 
-      <h1 className="text-xl font-bold text-primary mt-[2px]">
+      <h1 className="text-xl font-bold text-darkblue mt-[2px]">
         {getLevelName()}
       </h1>
 
-      <h1 className="text-2xl font-bold text-lightgreen mt-3">
+      <h1 className="text-2xl font-bold text-lightgreen mt-3 font-gluten">
         {user?.points.toString()} {t("title3")}
       </h1>
 
       <div className="mt-[30px] flex w-full justify-center">
         <CustomButton
           onClick={() => setActiveTab("progress")}
-          className={`rounded-none w-full ${activeTab === "progress" ? "" : "bg-transparentt"} `}
+          className={`rounded-none w-full bg-torquoise ${activeTab === "progress" ? "" : "bg-transparentt"} `}
         >
           {t("button1")}
         </CustomButton>
@@ -130,7 +130,7 @@ const Progress = () => {
       </div>
 
       {activeTab === "progress" ? (
-        <div className="bg-[#F5F3ED] w-full flex flex-col items-center justify-center">
+        <div className="bg-lightblue w-full flex flex-col items-center justify-center">
           <div className="mt-7">
             <div className="relative w-[196px] h-[196px]">
               <div
@@ -167,7 +167,7 @@ const Progress = () => {
             <div className="flex items-center gap-4">
               <Image src={Volcano} alt="Volcano" width={72} />
               <div>
-                <h2 className="text-primary text-[24px] font-bold">{t2("row1")}</h2>
+                <h2 className="text-darkblue text-[24px] font-bold">{t2("row1")}</h2>
               </div>
             </div>
             {getLevelCompleted(3) && <Image src={CheckIcon} alt="Completed" />}
@@ -177,7 +177,7 @@ const Progress = () => {
             <div className="flex items-center gap-4">
               <Image src={Stone} alt="Stone" width={72} />
               <div>
-                <h2 className="text-primary text-[24px] font-bold">{t2("row3")}</h2>
+                <h2 className="text-darkblue text-[24px] font-bold">{t2("row3")}</h2>
               </div>
             </div>
             {getLevelCompleted(2) && <Image src={CheckIcon} alt="Completed" />}
@@ -187,7 +187,7 @@ const Progress = () => {
             <div className="flex items-center gap-4">
               <Image src={Magma} alt="Magma" width={72} />
               <div>
-                <h2 className="text-primary text-[24px] font-bold">{t2("row2")}</h2>
+                <h2 className="text-darkblue text-[24px] font-bold">{t2("row2")}</h2>
               </div>
             </div>
             {getLevelCompleted(1) && <Image src={CheckIcon} alt="Completed" />}

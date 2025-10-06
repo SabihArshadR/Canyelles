@@ -105,29 +105,29 @@ const Register = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center py-5 px-4 min-h-screen">
+    <div className="flex flex-col justify-center items-center py-5 px-4 min-h-screen bg-lightblue">
       {showPrivacyPolicy && <PrivacyPolicyPopup handleClose={() => { setShowPrivacyPolicy(false); }} />}
       <div className="desktop:max-w-[400px] tablet:max-w-[400px] mobile:w-full">
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <Image src={Logo} alt="Logo" width={176} height={148} />
-        </div>
-        <div className="mt-[66px] flex flex-col gap-[22px]">
+        </div> */}
+        <div className="mt-[52px] flex flex-col gap-[22px] text-darkblue">
           <div>
-            <h1 className="mb-2 text-primary">{t("field1")}*</h1>
+            <h1 className="mb-2">{t("field1")}*</h1>
             <CustomInput
               value={formData.firstName}
               onChange={(e) => handleChange("firstName", e.target.value)}
             />
           </div>
           <div>
-            <h1 className="mb-2 text-primary">{t("field2")}*</h1>
+            <h1 className="mb-2">{t("field2")}*</h1>
             <CustomInput
               value={formData.lastName}
               onChange={(e) => handleChange("lastName", e.target.value)}
             />
           </div>
           <div>
-            <h1 className="mb-2 text-primary">{t("field3")}*</h1>
+            <h1 className="mb-2">{t("field3")}*</h1>
             <CustomInput
               type="email"
               value={formData.email}
@@ -135,7 +135,7 @@ const Register = () => {
             />
           </div>
           <div>
-            <h1 className="mb-2 text-primary">{t("field4")}*</h1>
+            <h1 className="mb-2">{t("field4")}*</h1>
             <div className="relative">
               <CustomInput
                 value={formData.password}
@@ -144,14 +144,14 @@ const Register = () => {
               />
               <span
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-3 top-3.5 cursor-pointer text-primary"
+                className="absolute right-3 top-3.5 cursor-pointer"
               >
                 {showPassword ? <FaEyeSlash /> : <FaEye />}
               </span>
             </div>
           </div>
           <div>
-            <h1 className="mb-2 text-primary">{t("field5")}*</h1>
+            <h1 className="mb-2">{t("field5")}*</h1>
             <CustomPhoneInput
               value={formData.phone}
               onChange={(e) => {
@@ -161,7 +161,7 @@ const Register = () => {
             />
           </div>
           <div>
-            <h1 className="mb-2 text-primary">{t("field6")}*</h1>
+            <h1 className="mb-2">{t("field6")}*</h1>
             <CustomInput
               value={formData.origin}
               onChange={(e) => handleChange("origin", e.target.value)}
@@ -175,7 +175,7 @@ const Register = () => {
               checked={termsAccepted}
               onChange={(e) => setTermsAccepted(e.target.checked)}
             />
-            <span className="text-primary">{t("check1")}</span>
+            <span className="text-darkblue">{t("check1")}</span>
           </label>
 
           <label className="flex items-center gap-2 cursor-pointer">
@@ -184,7 +184,7 @@ const Register = () => {
               checked={privacyAccepted}
               onChange={(e) => setPrivacyAccepted(e.target.checked)}
             />
-            <span className="text-primary">
+            <span className="text-darkblue">
               {t("check21")}{" "}
               <span onClick={() => setShowPrivacyPolicy(true)} className="text-red-500">{t("check22")}</span>
             </span>

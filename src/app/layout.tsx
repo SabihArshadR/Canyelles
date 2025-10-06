@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Poppins } from "next/font/google";
+import { Geist, Geist_Mono, Poppins, Gluten } from "next/font/google";
 import "./globals.css";
 import * as React from "react";
 
@@ -30,6 +30,13 @@ const poppins = Poppins({
   display: "swap",
 });
 
+const gluten = Gluten({
+  variable: "--font-poppins",
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Friends of the Basaltic Cliff",
   description: "Friends of the Basaltic Cliff",
@@ -47,7 +54,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${gluten.variable} antialiased`}
       >
         <Providers>
           <UserProvider>

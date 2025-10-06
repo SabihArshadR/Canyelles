@@ -91,7 +91,7 @@ const Amics = () => {
 
   return (
     <div className="flex flex-col items-center min-h-screen bg-white pb-8 md:pb-32">
-      <div className="bg-lightgreen w-full flex h-24 md:h-28 items-center justify-center">
+      <div className="bg-pink w-full flex h-24 md:h-28 items-center justify-center font-gluten">
         <h1 className="text-2xl md:text-3xl font-semibold text-white text-center">
           {t("title")}
         </h1>

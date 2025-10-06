@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import Map from "@/assets/map.png";
+import Map from "@/assets/mapa.png";
 import CustomButton from "../ui/Button";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
@@ -49,9 +49,9 @@ const Maps = () => {
   return (
     <div className="pb-5 px-3.5 bg-white min-h-[65vh]">
       <div className="flex justify-center">
-        <Image src={Map} alt="Map" className="mt-[36px]" />
+        <Image src={Map} alt="Map" className="mt-[88px]" />
       </div>
-      <h1 className="text-2xl font-bold text-center text-primary mt-[22px]">
+      <h1 className="text-2xl font-bold text-center text-darkblue mt-[22px]">
         {t(destination)} {t("title1")}
       </h1>
       {/* <h1 className="text-4xl font-medium text-center text-secondary mt-[10px] leading-8">

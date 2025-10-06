@@ -30,7 +30,7 @@ export default function SelectInput({
       </button>
 
       {open && POIs.length > 0 && (
-        <ul className="absolute mt-1 w-full bg-white border border-[#8B5E3C] rounded-md shadow-lg z-10">
+        <ul className="absolute mt-1 w-full bg-white border border-[#8B5E3C]z rounded-md shadow-lg z-10">
           {POIs.map((opt) => {
             const isSelectable = opt.id == user?.POIsCompleted;
 

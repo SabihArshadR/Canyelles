@@ -577,7 +577,7 @@ const Quiz = () => {
   };
 
   const getOptionClass = (optionText: string) => {
-    if (!selected) return "bg-white border-primary text-primary";
+    if (!selected) return "bg-white border-darkblue text-darkblue";
 
     if (selected === selectedQuestion.correct && optionText === selectedQuestion.correct) {
       return "bg-lightgreen border-lightgreen text-white";
@@ -588,7 +588,7 @@ const Quiz = () => {
       if (optionText === selectedQuestion.correct) return "bg-lightgreen border-lightgreen text-white";
     }
 
-    return "bg-white border-primary text-primary";
+    return "bg-white border-darkblue text-darkblue";
   };
 
   useEffect(() => {
@@ -646,9 +646,9 @@ const Quiz = () => {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center pb-[95px] ">
+    <div className="flex flex-col justify-center items-center pb-[95px] bg-lightblue">
       <div className="bg-white w-full flex h-[242px] items-center justify-center">
-        <h1 className="text-4xl font-bold text-primary text-center px-[38px]">
+        <h1 className="text-4xl font-bold text-darkblue text-center px-[38px] font-gluten">
           {selectedQuestion?.title}
         </h1>
 

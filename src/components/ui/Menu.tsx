@@ -108,7 +108,7 @@ export default function Menu() {
       <Navbar
         onMenuOpenChange={setIsMenuOpen}
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        className={`relative w-5 h-0 bg-skin`}
+        className={`relative w-5 h-0 `}
       >
         <NavbarContent>
           <NavbarMenuToggle
@@ -116,13 +116,13 @@ export default function Menu() {
             icon={
               isMenuOpen ? (
                 <img
-                  src="/icons/close.png"
+                  src="/icons/ICON CROSS.png"
                   alt="Close menu"
                   className="w-12 h-6 ml-4"
                 />
               ) : (
                 <img
-                  src="/icons/open.png"
+                  src="/icons/menu.png"
                   alt="Open menu"
                 />
               )
@@ -130,37 +130,37 @@ export default function Menu() {
           />
         </NavbarContent>
         <NavbarMenu
-          className={`absolute top-0 desktop:w-[400px] max-h-[600px] tablet:w-[400px] bg-brown desktop:mx-auto mobile:w-full flex flex-col`}      >
+          className={`absolute top-0 desktop:w-[400px] max-h-[600px] tablet:w-[400px] bg-darkblue desktop:mx-auto mobile:w-full flex flex-col`}      >
 
           <div className="flex gap-5 justify-between my-auto !mt-3 px-2 pb-5">
             <div className="flex flex-col my-auto !mt-24 gap-7">
               <Link
                 href="/mapa"
-                className="text-white text-sm p-2 font-semibold hover:bg-lightbrown block"
+                className="text-white text-sm p-2 font-semibold hover:bg-torquoise block"
               >
                 {t2("card1")}
               </Link>
               <Link
                 href="/progres"
-                className="text-white text-sm p-2 font-semibold hover:bg-lightbrown block"
+                className="text-white text-sm p-2 font-semibold hover:bg-torquoise block"
               >
                 {t2("card2")}
               </Link>
               <Link
                 href="/amics"
-                className="text-white text-sm p-2 font-semibold hover:bg-lightbrown block"
+                className="text-white text-sm p-2 font-semibold hover:bg-torquoise block"
               >
                 {t2("card3")}
               </Link>
               <Link
                 onClick={() => { setShowMorePopup(true); }}
-                className="text-white text-sm p-2 font-semibold hover:bg-lightbrown block"
+                className="text-white text-sm p-2 font-semibold hover:bg-torquoise block"
               >
                 {t2("card4")}
               </Link>
               <Link
                 href="/faqs"
-                className="text-white text-sm p-2 font-semibold hover:bg-lightbrown block"
+                className="text-white text-sm p-2 font-semibold hover:bg-torquoise block"
               >
                 {t2("card5")}
               </Link>
@@ -168,13 +168,13 @@ export default function Menu() {
                 onClick={() => {
                   window.open("/Recomanem/infografia-amics-cinglera.pdf", "_blank");
                 }}
-                className="text-white text-sm p-2 font-semibold hover:bg-lightbrown block"
+                className="text-white text-sm p-2 font-semibold hover:bg-torquoise block"
               >
                 {t2("card6")}
               </Link>
               <Link
                 href="/"
-                className="text-white text-sm p-2 font-semibold hover:bg-lightbrown"
+                className="text-white text-sm p-2 font-semibold hover:bg-torquoise"
               >
                 {t("LOGOUT_link")}
               </Link>

@@ -42,14 +42,14 @@ const Faqs = () => {
 
   return (
     <div className="flex flex-col justify-center items-center pb-[51px] bg-white">
-      <div className="bg-lightgreen w-full flex h-[100px] items-center justify-center">
-        <h1 className="text-[26px] font-semibold text-white text-center">
+      <div className="bg-red w-full flex h-[100px] items-center justify-center">
+        <h1 className="text-[26px] font-gluten font-semibold text-white text-center">
           {t("title")}
         </h1>
       </div>
       <div className="flex w-full">
         <CustomButton
-          className={`rounded-none ${
+          className={`rounded-none bg-torquoise font-gluten ${
             activeTab === "ar" ? "" : "bg-transparentt"
           }`}
           onClick={() => setActiveTab("ar")}
@@ -57,7 +57,7 @@ const Faqs = () => {
           {t("button1")}
         </CustomButton>
         <CustomButton
-          className={`rounded-none ${
+          className={`rounded-none bg-torquoise font-gluten ${
             activeTab === "game" ? "" : "bg-transparentt"
           }`}
           onClick={() => setActiveTab("game")}
@@ -65,7 +65,7 @@ const Faqs = () => {
           {t("button2")}
         </CustomButton>
         <CustomButton
-          className={`rounded-none ${
+          className={`rounded-none bg-torquoise font-gluten ${
             activeTab === "map" ? "" : "bg-transparentt"
           }`}
           onClick={() => setActiveTab("map")}
@@ -84,10 +84,10 @@ const Faqs = () => {
                 src={openQuestions[id] ? checkminus : checkplus}
                 alt="toggle"
               />
-              <h1 className="text-primary text-[22px] font-bold">{question}</h1>
+              <h1 className="text-darkblue text-[22px] font-bold">{question}</h1>
             </div>
             {openQuestions[id] && (
-              <p className="text-secondary mt-[15px] whitespace-pre-line px-[27px]">
+              <p className="text-darkblue mt-[15px] whitespace-pre-line px-[27px]">
                 {answer}
               </p>
             )}
