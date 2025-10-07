@@ -119,9 +119,10 @@ const Amics = () => {
     }
   };
 
+  
   if (status === "loading" || isLoading) {
     return (
-      <div className="flex items-center justify-cente min-h-screen bg-white">
+      <div className="flex items-center justify-center min-h-screen bg-white">
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-lightgreen"></div>
       </div>
     );
@@ -132,14 +133,14 @@ const Amics = () => {
   }
 
   return (
-    <div className="flex flex-col items-center min-h-screen bg-white pb-8 md:pb-32">
+    <div className="flex flex-col items-center h-[91vh] bg-white pb-10 md:pb-32">
       <div className="bg-pink w-full flex h-24 md:h-28 items-center justify-center font-gluten">
         <h1 className="text-2xl md:text-3xl font-semibold text-white text-center">
           {t("title")}
         </h1>
       </div>
 
-      <div className="mt-8 w-full max-w-4xl">
+      <div className="mt-8 w-full max-w-4xl pb-10">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 md:gap-6 w-full px-5 md:px-0 justify-items-center">
           {findings.map((item, index) => {
             const isUnlocked = index < unlockedCount;
