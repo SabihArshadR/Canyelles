@@ -21,12 +21,12 @@ const Header = () => {
   };
 
   return (
-    <div className="flex justify-between items-center w-full px-3 py-[32px]"
+    <div className="flex justify-between items-center w-full px-[14px] py-[32px]"
      style={{ backgroundImage: "url('/bgimage.png')" }}
     >
       <div className="mt-4 w-[70px]">
         <Menu />
-        <h1 className="text-white text-base font-bold mt-3">
+        <h1 className="text-white text-base font-medium mt-3">
           {t("title1")}
         </h1>
       </div>
@@ -39,12 +39,12 @@ const Header = () => {
           alt="Logo"
           width={108}
           height={68}
-          className=" px-auto"
+          className="px-auto"
           onClick={() => router.push("/")}
           />
           </div>
-        <h1 className="text-pink text-center font-gluten text-[30px] leading-[30px] font-bold mt-[5px] tracking-normal">{t("heading1")}</h1>
-        <h2 className="text-[#FFDAC1] text-center font-gluten font-bold text-[11px]">{t("heading2")}</h2>
+        <h1 className="text-pink text-center font-gluten text-[30px] leading-[30px] font-extrabold mt-[5px] tracking-normal">{t("heading1")}</h1>
+        <h2 className="text-[#FFDAC1] text-center font-gluten font-bold text-[11.5px]">{t("heading2")}</h2>
       </div>
 
       <div className="flex items-end flex-col mt-2 w-[70px]" onClick={handleAuthClick}>
@@ -53,7 +53,7 @@ const Header = () => {
             src={status === "authenticated" ? User : User}
             alt={status === "authenticated" ? "Logout" : "User"}
           />
-          <h1 className="text-white text-base font-bold text-center leading-6">
+          <h1 className="text-white text-base font-medium text-center ">
             {status === "authenticated" ? t("title3") : t("title2")}
           </h1>
         </div>

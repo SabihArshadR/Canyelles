@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
-import Stone from "@/assets/icon_level_stone.svg";
-import Magma from "@/assets/magma.png";
-import Volcano from "@/assets/icon_volcano 1.svg";
+import Stone from "@/assets/icon_solar_system.png";
+import Magma from "@/assets/icon_galaxy.png";
+import Volcano from "@/assets/icon_planet.png";
 import CheckIcon from "@/assets/check.svg";
 import CustomButton from "../ui/Button";
 import { useTranslations } from "next-intl";
@@ -117,13 +117,13 @@ const Progress = () => {
       <div className="mt-[30px] flex w-full justify-center">
         <CustomButton
           onClick={() => setActiveTab("progress")}
-          className={`rounded-none w-full bg-torquoise ${activeTab === "progress" ? "" : "bg-transparentt"} `}
+          className={`rounded-none w-full bg-torquoise font-gluten ${activeTab === "progress" ? "" : "bg-transparentt"} `}
         >
           {t("button1")}
         </CustomButton>
         <CustomButton
           onClick={() => setActiveTab("nivell")}
-          className={`rounded-none w-full ${activeTab === "nivell" ? "" : "bg-transparentt"} `}
+          className={`rounded-none w-full bg-torquoise font-gluten ${activeTab === "nivell" ? "" : "bg-transparentt"} `}
         >
           {t2("button")}
         </CustomButton>

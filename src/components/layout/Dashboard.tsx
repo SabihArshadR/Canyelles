@@ -19,6 +19,7 @@ import Intro from "./Intro";
 import api from "@/lib/axios";
 import { useUser } from "@/context/UserContext";
 import CompletePopup from "./CompletePopup";
+import Notification from "@/assets/notification.png";
 
 const Dashboard = () => {
   const { user, refreshUser } = useUser();
@@ -59,7 +60,6 @@ const Dashboard = () => {
     checkPOI();
   }, [user]);
 
-
   const updateIntroStatus = async () => {
     try {
       await api.post("/user", {
@@ -70,19 +70,33 @@ const Dashboard = () => {
     }
   };
 
-  if (loading) return (<Welcome />);
+  if (loading) return <Welcome />;
 
   return (
     <>
-      {ShowMorePopup && <SplashPopUp handleClose={() => { setShowMorePopup(false); }} />}
-      {ShowCompletePopup && <CompletePopup handleClose={() => { setShowCompletePopup(false); }} />}
-      {showIntro && <Intro handleClose={() => {
-        setShowIntro(false);
-        updateIntroStatus();
-      }} />}
-      <div className="pb-[63px]"
-      style={{ backgroundImage: "url('/LOGO.jpg')"}}
-      >
+      {ShowMorePopup && (
+        <SplashPopUp
+          handleClose={() => {
+            setShowMorePopup(false);
+          }}
+        />
+      )}
+      {ShowCompletePopup && (
+        <CompletePopup
+          handleClose={() => {
+            setShowCompletePopup(false);
+          }}
+        />
+      )}
+      {showIntro && (
+        <Intro
+          handleClose={() => {
+            setShowIntro(false);
+            updateIntroStatus();
+          }}
+        />
+      )}
+      <div className="" style={{ backgroundImage: "url('/LOGO.jpg')" }}>
         <div className="">
           <Image
             src={Logo}
@@ -90,25 +104,36 @@ const Dashboard = () => {
             className="object-cover h-[329px] w-[530px] object-[50%_36%]"
           />
         </div>
-        <div className="flex justify-between mt-[33px] px-4 gap-4 font-gluten">
+        <div className="flex justify-between mt-[33px] px-6 gap-4 font-gluten">
           <Card
             onClick={() => {
               if (user && user.POIsCompleted === 9) setShowCompletePopup(true);
               else router.push("/mapa");
             }}
           >
-            <Image src={Map} alt="Map Icon" />
+            <Image src={Map} alt="Map Icon" className="w-[48px] h-[48px]" />
             <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
               {t("card1")}
             </h1>
-            {status === "authenticated" && <div className="w-[15px] h-[15px] rounded-full bg-red-600 absolute top-2 right-2  animate-pulse"></div>}
+            {status === "authenticated" && (
+              // <div className="w-[15px] h-[15px] rounded-full bg-red-600 absolute top-2 right-2  animate-pulse"></div>
+              <Image
+                src={Notification}
+                alt="Notification"
+                className="absolute top-0 right-0  animate-pulse"
+              />
+            )}
           </Card>
           <Card
             onClick={() => {
               router.push("/progres");
             }}
           >
-            <Image src={Profile} alt="Profile Icon" />
+            <Image
+              src={Profile}
+              alt="Profile Icon"
+              className="w-[48px] h-[48px]"
+            />
             <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
               {t("card2")}
             </h1>
@@ -118,16 +143,35 @@ const Dashboard = () => {
               router.push("/amics");
             }}
           >
-            <Image src={Amics} alt="Friends Icon" />
+            <Image
+              src={Amics}
+              alt="Friends Icon"
+              className="w-[48px] h-[48px]"
+            />
             <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
               {t("card3")}
             </h1>
-            {status === "authenticated" && <div className="w-[15px] h-[15px] rounded-full bg-red-600 absolute top-2 right-2  animate-pulse"></div>}
+            {status === "authenticated" && (
+              // <div className="w-[15px] h-[15px] rounded-full bg-red-600 absolute top-2 right-2  animate-pulse"></div>
+              <Image
+                src={Notification}
+                alt="Notification"
+                className="absolute top-0 right-0  animate-pulse"
+              />
+            )}
           </Card>
         </div>
-        <div className="flex justify-between mt-5 px-4 gap-4 font-gluten">
-          <Card onClick={() => { setShowMorePopup(true); }}>
-            <Image src={Axe} alt="Know More Icon" />
+        <div className="flex justify-between mt-[25px] px-6 gap-4 font-gluten">
+          <Card
+            onClick={() => {
+              setShowMorePopup(true);
+            }}
+          >
+            <Image
+              src={Axe}
+              alt="Know More Icon"
+              className="w-[48px] h-[48px]"
+            />
             <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
               {t("card4")}
             </h1>
@@ -137,15 +181,21 @@ const Dashboard = () => {
               router.push("/faqs");
             }}
           >
-            <Image src={Faq} alt="FAQs Icon" />
+            <Image src={Faq} alt="FAQs Icon" className="w-[48px] h-[48px]" />
             <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
               {t("card5")}
             </h1>
           </Card>
-          <Card onClick={() => {
-            window.open("/Recomanem/infografia-amics-cinglera.pdf", "_blank");
-          }}>
-            <Image src={Direction} alt="Recommendations Icon" />
+          <Card
+            onClick={() => {
+              window.open("/Recomanem/infografia-amics-cinglera.pdf", "_blank");
+            }}
+          >
+            <Image
+              src={Direction}
+              alt="Recommendations Icon"
+              className="w-[48px] h-[48px]"
+            />
             <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
               {t("card6")}
             </h1>

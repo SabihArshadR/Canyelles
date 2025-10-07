@@ -33,7 +33,7 @@ const poppins = Poppins({
 const gluten = Gluten({
   variable: "--font-poppins",
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700"],
+  weight: ["100", "200", "300", "400", "500", "600", "700" , "800"],
   display: "swap",
 });
 
