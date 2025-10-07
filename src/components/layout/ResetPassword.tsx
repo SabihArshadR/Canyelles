@@ -43,13 +43,13 @@ const ResetPassword = () => {
     };
 
     return (
-        <div className="flex flex-col justify-center items-center gap-[22px] py-5 px-4 min-h-screen">
+        <div className="flex flex-col justify-center items-center gap-[22px] py-5 px-4 h-[80vh] bg-lightblue">
             <div className="desktop:max-w-[400px] tablet:max-w-[400px] mobile:w-full">
-                <div className="flex justify-center">
+                {/* <div className="flex justify-center">
                     <Image src={Logo} alt="Logo" width={176} height={148} />
-                </div>
+                </div> */}
                 <div className="">
-                    <h1 className="mb-2 text-primary">{t("field4")}*</h1>
+                    <h1 className="mb-2 text-darkblue">{t("field4")}*</h1>
                     <div className="relative">
                         <CustomInput
                             value={password}
@@ -59,7 +59,7 @@ const ResetPassword = () => {
                         />
                         <span
                             onClick={() => setShowPassword(!showPassword)}
-                            className="absolute right-3 top-3.5 cursor-pointer text-primary"
+                            className="absolute right-3 top-3.5 cursor-pointer text-darkblue"
                         >
                             {showPassword ? <FaEyeSlash /> : <FaEye />}
                         </span>

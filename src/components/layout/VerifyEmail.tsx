@@ -120,11 +120,11 @@ export default function VerifyEmail() {
     };
 
     return (
-        <div className="flex justify-center items-center py-5 px-4 min-h-screen bg-[#F5F3ED]">
+        <div className="flex justify-center items-center py-5 px-4 h-[80vh] bg-lightblue">
             <div className=" rounded-2xl desktop:max-w-[400px] tablet:max-w-[400px] mobile:w-full">
-                <div className="flex justify-center">
+                {/* <div className="flex justify-center">
                     <Image src={Logo} alt="Logo" width={176} height={148} />
-                </div>
+                </div> */}
                 <form onSubmit={handleSubmit} className="space-y-6 mt-[66px] ">
                     <div className="flex justify-between">
                         {code.map((digit, index) => (
@@ -138,7 +138,7 @@ export default function VerifyEmail() {
                                 onChange={(e) => handleChange(index, e.target.value)}
                                 onKeyDown={(e) => handleKeyDown(index, e)}
                                 onPaste={handlePaste}
-                                className="w-12 h-12 text-center text-base m-1 font-bold bg-white text-black border-2 border-primary rounded-[8px] focus:outline-none"
+                                className="w-12 h-12 text-center text-base m-1 font-bold bg-white text-black border-2 border-darkblue rounded-[8px] focus:outline-none"
                             />
                         ))}
 
@@ -163,7 +163,7 @@ export default function VerifyEmail() {
                         <CustomButton
                             onClick={handleResend}
                             disabled={resendLoading}
-                            className="bg-secondary "
+                            className="bg-torquoise "
                         >
                             {resendLoading ? t("sending") : t("resend_code")}
                         </CustomButton>

@@ -24,7 +24,9 @@ const DashboardWrapper = ({ children }: DashboardWrapperProps) => {
 
   return (
     <div className="desktop:flex tablet:flex mobile:block flex-col justify-center items-center min-h-[85vh] relative">
-      <div className="desktop:max-w-[400px] tablet:max-w-[400px] mobile:w-full">
+      <div
+        className="desktop:max-w-[400px] tablet:max-w-[400px] mobile:w-full"
+      >
         <Header />
         {children}
       </div>
@@ -36,10 +38,7 @@ const DashboardWrapper = ({ children }: DashboardWrapperProps) => {
             agree to our cookie policy.
           </p>
           <div className="flex flex-col gap-2">
-            <CustomButton
-              className="!text-xs !px-8"
-              onClick={handleAccept}
-            >
+            <CustomButton className="!text-xs !px-8" onClick={handleAccept}>
               Accept
             </CustomButton>
             <CustomButton

@@ -1,10 +1,13 @@
 import ManualLogin from "@/components/layout/ManualLogin";
+import DashboardWrapper from "@/layouts/DashboardWrapper";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <ManualLogin />
+      <DashboardWrapper>
+        <ManualLogin />
+      </DashboardWrapper>
     </div>
   );
 };

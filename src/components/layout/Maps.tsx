@@ -47,7 +47,7 @@ const Maps = () => {
   const destination = stop[user?.POIsCompleted];
 
   return (
-    <div className="pb-5 px-3.5 bg-white min-h-[65vh]">
+    <div className="pb-5 px-3.5 bg-white min-h-[80vh]">
       <div className="flex justify-center">
         <Image src={Map} alt="Map" className="mt-[88px]" />
       </div>

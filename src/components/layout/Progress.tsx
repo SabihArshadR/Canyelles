@@ -130,7 +130,7 @@ const Progress = () => {
       </div>
 
       {activeTab === "progress" ? (
-        <div className="bg-lightblue w-full flex flex-col items-center justify-center">
+        <div className="bg-lightblue w-full flex flex-col items-center justify-center pb-10">
           <div className="mt-7">
             <div className="relative w-[196px] h-[196px]">
               <div
@@ -162,7 +162,7 @@ const Progress = () => {
           </div>
         </div>
       ) : (
-        <div className="w-full flex flex-col bg-white min-h-[45vh]">
+        <div className="w-full flex flex-col bg-white min-h-[46vh]">
           <div className={`flex items-center justify-between border-b py-3 px-6 ${shouldShowOpacity(3) ? "" : "opacity-50"}`}>
             <div className="flex items-center gap-4">
               <Image src={Volcano} alt="Volcano" width={72} />

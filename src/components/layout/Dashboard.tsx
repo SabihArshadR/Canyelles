@@ -80,7 +80,9 @@ const Dashboard = () => {
         setShowIntro(false);
         updateIntroStatus();
       }} />}
-      <div className="pb-[63px]">
+      <div className="pb-[63px]"
+      style={{ backgroundImage: "url('/LOGO.jpg')"}}
+      >
         <div className="">
           <Image
             src={Logo}

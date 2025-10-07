@@ -42,7 +42,7 @@ const Login = () => {
           
         </div>
         <div className="flex justify-center mt-8">
-          <Image src={Logo2} alt="Logo2" width={118} height={63} />
+          <Image src={Logo2} alt="Logo2" width={118} height={63} />z
         </div>
       </div>
     </div>

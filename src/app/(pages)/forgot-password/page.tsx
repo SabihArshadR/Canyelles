@@ -1,10 +1,13 @@
 import ForgotPassword from "@/components/layout/ForgotPassword";
+import DashboardWrapper from "@/layouts/DashboardWrapper";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <ForgotPassword />
+      <DashboardWrapper>
+        <ForgotPassword />
+      </DashboardWrapper>
     </div>
   );
 };

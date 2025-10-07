@@ -21,7 +21,9 @@ const Header = () => {
   };
 
   return (
-    <div className="flex justify-between items-center w-full px-3 py-[32px]">
+    <div className="flex justify-between items-center w-full px-3 py-[32px]"
+     style={{ backgroundImage: "url('/bgimage.png')" }}
+    >
       <div className="mt-4 w-[70px]">
         <Menu />
         <h1 className="text-white text-base font-bold mt-3">
