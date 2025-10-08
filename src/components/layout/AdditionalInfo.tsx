@@ -76,13 +76,13 @@ const AdditionalInfo = () => {
         }
     }, [session, status, router]);
     return (
-        <div className="flex flex-col justify-center items-center py-5 px-4 h-[80vh] bg-lightblue">
+        <div className="flex flex-col items-center py-5 px-4 h-[80vh] bg-lightblue">
             <div className="desktop:max-w-[400px] tablet:max-w-[400px] mobile:w-full">
                 {/* <div className="flex justify-center">
                     <Image src={Logo} alt="Logo" width={176} height={148} />
                 </div> */}
 
-                <div className="mt-[66px] flex flex-col gap-[22px]">
+                <div className="mt-[40px] flex flex-col gap-[22px]">
                     <div>
                         <h1 className="mb-2 text-darkblue">{t("field5")}*</h1>
                         <CustomPhoneInput

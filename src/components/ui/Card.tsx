@@ -12,7 +12,7 @@ const Card: React.FC<PrimaryBoxProps> = ({ children, className = "", onClick }) 
     <div
       className={`border-b-5 border-purple rounded-[12px] w-[113px] h-[118px] 
         flex flex-col gap-[14px] items-center justify-center bg-lightblue cursor-pointer
-         hover:bg-skin px-2 py-2 text-center relative overflow-hidden ${className}`}
+         hover:bg-skin px-1 py-2 text-center relative overflow-hidden ${className}`}
       onClick={onClick}
     >
       {children}

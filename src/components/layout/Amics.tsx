@@ -8,22 +8,22 @@ import { useUser } from "@/context/UserContext";
 import ModelViewer from "./ModelViewer";
 
 // Findings images
-// import finding1 from "@/assets/findings/1. clock tower.jpg";
-// import finding2 from "@/assets/findings/2. rusty tools.jpg";
-// import finding3 from "@/assets/findings/3. medieval sword.jpg";
-// import finding4 from "@/assets/findings/4. basaltic rock.jpg";
-// import finding5 from "@/assets/findings/5. chariot.jpg";
-// import finding6 from "@/assets/findings/6. green frog.jpg";
-// import finding7 from "@/assets/findings/7. willow.jpg";
-// import finding8 from "@/assets/findings/8. eurasian.jpg";
-// import finding9 from "@/assets/findings/9. trophy.jpg";
+import finding1 from "@/assets/findings/1. clock tower.jpg";
+import finding2 from "@/assets/findings/2. rusty tools.jpg";
+import finding3 from "@/assets/findings/3. medieval sword.jpg";
+import finding4 from "@/assets/findings/4. basaltic rock.jpg";
+import finding5 from "@/assets/findings/5. chariot.jpg";
+import finding6 from "@/assets/findings/6. green frog.jpg";
+import finding7 from "@/assets/findings/7. willow.jpg";
+import finding8 from "@/assets/findings/8. eurasian.jpg";
+import finding9 from "@/assets/findings/9. trophy.jpg";
 
-import finding1 from "@/assets/gem1.png";
-import finding2 from "@/assets/gem2.png";
-import finding3 from "@/assets/gem3.png";
-import finding4 from "@/assets/gem4.png";
-import finding5 from "@/assets/gem5.png";
-import finding6 from "@/assets/gem6.png";
+// import finding1 from "@/assets/gem1.png";
+// import finding2 from "@/assets/gem2.png";
+// import finding3 from "@/assets/gem3.png";
+// import finding4 from "@/assets/gem4.png";
+// import finding5 from "@/assets/gem5.png";
+// import finding6 from "@/assets/gem6.png";
 // import finding7 from "@/assets/findings/7. willow.jpg";
 // import finding8 from "@/assets/findings/8. eurasian.jpg";
 // import finding9 from "@/assets/findings/9. trophy.jpg";
@@ -93,9 +93,9 @@ const Amics = () => {
       altKey: "finding6",
       zoom: "normal",
     },
-    // { img: finding7, model: `${HOST}/models/7_willow.glb`, altKey: "finding7", zoom: "less" },
-    // { img: finding8, model: `${HOST}/models/8_eurasian.glb`, altKey: "finding8", zoom: "large" },
-    // { img: finding9, model: `${HOST}/models/9_trophy.glb`, altKey: "finding9", zoom: "normal" },
+    { img: finding7, model: `${HOST}/models/7_willow.glb`, altKey: "finding7", zoom: "less" },
+    { img: finding8, model: `${HOST}/models/8_eurasian.glb`, altKey: "finding8", zoom: "large" },
+    { img: finding9, model: `${HOST}/models/9_trophy.glb`, altKey: "finding9", zoom: "normal" },
   ];
 
   useEffect(() => {
@@ -133,7 +133,7 @@ const Amics = () => {
   }
 
   return (
-    <div className="flex flex-col items-center h-[91vh] bg-white pb-10 md:pb-32">
+    <div className="flex flex-col items-center min-h-screen bg-white pb-10 md:pb-32">
       <div className="bg-pink w-full flex h-24 md:h-28 items-center justify-center font-gluten">
         <h1 className="text-2xl md:text-3xl font-semibold text-white text-center">
           {t("title")}

@@ -51,13 +51,13 @@ const Maps = () => {
       <div className="flex justify-center">
         <Image src={Map} alt="Map" className="mt-[88px] w-[192px] h-[192px]" />
       </div>
-      <h1 className="text-2xl font-bold text-center text-darkblue mt-[22px]">
+      <h1 className="text-2xl font-bold text-center text-pink mt-[53px] font-gluten">
         {t(destination)} {t("title1")}
       </h1>
       {/* <h1 className="text-4xl font-medium text-center text-secondary mt-[10px] leading-8">
         {t("title2")}
       </h1> */}
-      <div className="flex flex-col justify-center items-center mt-[14vh]">
+      <div className="flex flex-col justify-center items-center mt-[14vh] font-gluten">
         <CustomButton
           onClick={() => {
             router.push("/mapp");

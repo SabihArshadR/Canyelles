@@ -120,12 +120,12 @@ export default function VerifyEmail() {
     };
 
     return (
-        <div className="flex justify-center items-center py-5 px-4 h-[80vh] bg-lightblue">
+        <div className="flex py-5 px-4 h-[80vh] bg-lightblue">
             <div className=" rounded-2xl desktop:max-w-[400px] tablet:max-w-[400px] mobile:w-full">
                 {/* <div className="flex justify-center">
                     <Image src={Logo} alt="Logo" width={176} height={148} />
                 </div> */}
-                <form onSubmit={handleSubmit} className="space-y-6 mt-[66px] ">
+                <form onSubmit={handleSubmit} className="space-y-6 mt-10">
                     <div className="flex justify-between">
                         {code.map((digit, index) => (
                             <input

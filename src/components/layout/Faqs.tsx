@@ -42,14 +42,14 @@ const Faqs = () => {
 
   return (
     <div className="flex flex-col justify-center items-center pb-[51px] bg-white">
-      <div className="bg-red w-full flex h-[100px] items-center justify-center">
+      <div className="bg-pink w-full flex h-[100px] items-center justify-center">
         <h1 className="text-[26px] font-gluten font-semibold text-white text-center">
           {t("title")}
         </h1>
       </div>
       <div className="flex w-full">
         <CustomButton
-          className={`rounded-none bg-torquoise font-gluten ${
+          className={`rounded-none bg-torquoise ${
             activeTab === "ar" ? "" : "bg-transparentt"
           }`}
           onClick={() => setActiveTab("ar")}
@@ -57,7 +57,7 @@ const Faqs = () => {
           {t("button1")}
         </CustomButton>
         <CustomButton
-          className={`rounded-none bg-torquoise font-gluten ${
+          className={`rounded-none bg-torquoise ${
             activeTab === "game" ? "" : "bg-transparentt"
           }`}
           onClick={() => setActiveTab("game")}
@@ -65,7 +65,7 @@ const Faqs = () => {
           {t("button2")}
         </CustomButton>
         <CustomButton
-          className={`rounded-none bg-torquoise font-gluten ${
+          className={`rounded-none bg-torquoise ${
             activeTab === "map" ? "" : "bg-transparentt"
           }`}
           onClick={() => setActiveTab("map")}

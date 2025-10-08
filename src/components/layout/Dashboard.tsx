@@ -96,12 +96,12 @@ const Dashboard = () => {
           }}
         />
       )}
-      <div className="" style={{ backgroundImage: "url('/LOGO.jpg')" }}>
+      <div className="pb-10" style={{ backgroundImage: "url('/LOGO.jpg')" }}>
         <div className="">
           <Image
             src={Logo}
             alt="Logo"
-            className="object-cover h-[329px] w-[530px] object-[50%_36%]"
+            className="object-cover h-[424px] w-[430px]"
           />
         </div>
         <div className="flex justify-between mt-[33px] px-6 gap-4 font-gluten">
@@ -112,7 +112,7 @@ const Dashboard = () => {
             }}
           >
             <Image src={Map} alt="Map Icon" className="w-[48px] h-[48px]" />
-            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
+            <h1 className="text-center w-full break-words px-1 text-base leading-4 font-semibold text-darkblue">
               {t("card1")}
             </h1>
             {status === "authenticated" && (
@@ -134,7 +134,7 @@ const Dashboard = () => {
               alt="Profile Icon"
               className="w-[48px] h-[48px]"
             />
-            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
+            <h1 className="text-center w-full break-words px-1 text-base leading-4 font-semibold text-darkblue">
               {t("card2")}
             </h1>
           </Card>
@@ -148,7 +148,7 @@ const Dashboard = () => {
               alt="Friends Icon"
               className="w-[48px] h-[48px]"
             />
-            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
+            <h1 className="text-center w-full break-words px-1 text-base leading-4 font-semibold text-darkblue">
               {t("card3")}
             </h1>
             {status === "authenticated" && (
@@ -172,7 +172,7 @@ const Dashboard = () => {
               alt="Know More Icon"
               className="w-[48px] h-[48px]"
             />
-            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
+            <h1 className="text-center w-full break-words px-1 text-base leading-4 font-semibold text-darkblue">
               {t("card4")}
             </h1>
           </Card>
@@ -182,7 +182,7 @@ const Dashboard = () => {
             }}
           >
             <Image src={Faq} alt="FAQs Icon" className="w-[48px] h-[48px]" />
-            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
+            <h1 className="text-center w-full break-words px-1 text-base leading-4 font-semibold text-darkblue">
               {t("card5")}
             </h1>
           </Card>
@@ -196,7 +196,7 @@ const Dashboard = () => {
               alt="Recommendations Icon"
               className="w-[48px] h-[48px]"
             />
-            <h1 className="text-center w-full break-words px-1 text-sm leading-4 font-semibold text-darkblue">
+            <h1 className="text-center w-full break-words px-0 text-base leading-4 font-semibold text-darkblue">
               {t("card6")}
             </h1>
           </Card>

@@ -3,15 +3,15 @@ import { useTranslations } from "next-intl";
 import React, { useEffect, useMemo, useState } from "react";
 import CustomButton from "../ui/Button";
 import { useParams, useRouter } from "next/navigation";
-import finding_1 from '@/assets/findings/1. clock tower.jpg'
-import finding_2 from '@/assets/findings/2. rusty tools.jpg'
-import finding_3 from '@/assets/findings/3. medieval sword.jpg'
-import finding_4 from '@/assets/findings/4. basaltic rock.jpg'
-import finding_5 from '@/assets/findings/5. chariot.jpg'
-import finding_6 from '@/assets/findings/6. green frog.jpg'
-import finding_7 from '@/assets/findings/7. willow.jpg'
-import finding_8 from '@/assets/findings/8. eurasian.jpg'
-import finding_9 from '@/assets/findings/9. trophy.jpg'
+import finding_1 from "@/assets/findings/1. clock tower.jpg";
+import finding_2 from "@/assets/findings/2. rusty tools.jpg";
+import finding_3 from "@/assets/findings/3. medieval sword.jpg";
+import finding_4 from "@/assets/findings/4. basaltic rock.jpg";
+import finding_5 from "@/assets/findings/5. chariot.jpg";
+import finding_6 from "@/assets/findings/6. green frog.jpg";
+import finding_7 from "@/assets/findings/7. willow.jpg";
+import finding_8 from "@/assets/findings/8. eurasian.jpg";
+import finding_9 from "@/assets/findings/9. trophy.jpg";
 import api from "@/lib/axios";
 import Loading from "./Loading";
 import { useUser } from "@/context/UserContext";
@@ -577,23 +577,30 @@ const Quiz = () => {
   };
 
   const getOptionClass = (optionText: string) => {
-    if (!selected) return "bg-white border-darkblue text-darkblue";
+    if (!selected)
+      return "bg-white border-darkblue text-darkblue font-semibold";
 
-    if (selected === selectedQuestion.correct && optionText === selectedQuestion.correct) {
-      return "bg-lightgreen border-lightgreen text-white";
+    if (
+      selected === selectedQuestion.correct &&
+      optionText === selectedQuestion.correct
+    ) {
+      return "bg-lightgreen border-lightgreen text-white font-semibold";
     }
 
     if (selected !== selectedQuestion.correct) {
-      if (optionText === selected) return "bg-red border-red text-white";
-      if (optionText === selectedQuestion.correct) return "bg-lightgreen border-lightgreen text-white";
+      if (optionText === selected)
+        return "bg-red border-red text-white font-semibold";
+      if (optionText === selectedQuestion.correct)
+        return "bg-lightgreen border-lightgreen text-white font-semibold";
     }
 
-    return "bg-white border-darkblue text-darkblue";
+    return "bg-white border-darkblue text-darkblue font-semibold";
   };
 
   useEffect(() => {
     if (allQuestions.length > 0) {
-      const randomQ = allQuestions[Math.floor(Math.random() * allQuestions.length)];
+      const randomQ =
+        allQuestions[Math.floor(Math.random() * allQuestions.length)];
       setSelectedQuestion(randomQ);
       setTexts(shuffleArray(randomQ.options));
     }
@@ -615,9 +622,8 @@ const Quiz = () => {
   }, [quizCompleted, volcanoId]);
 
   if (quizCompleted) {
-
     return (
-      <div className="flex flex-col justify-center px-5 h-[80vh] items-center">
+      <div className="flex flex-col justify-center px-5 h-[85vh] items-center bg-lightblue">
         {findingImages[volcanoId - 1] && (
           <img
             src={findingImages[volcanoId - 1].src}
@@ -625,16 +631,18 @@ const Quiz = () => {
             className="max-w-[90%]  mb-4"
           />
         )}
-        <h1 className="text-xl font-bold text-primary mb-12 text-center">
+        <h1 className="text-xl font-bold text-pink mb-12 text-center">
           {findingNames[volcanoId - 1]}
         </h1>
         {/* <h1 className="text-lg text-primary mb-6 text-center">
           {t1("description")}
         </h1> */}
-        <CustomButton onClick={() => {
-          refreshUser();
-          router.push("/");
-        }}>
+        <CustomButton
+          onClick={() => {
+            refreshUser();
+            router.push("/");
+          }}
+        >
           {t1("button")}
         </CustomButton>
       </div>
@@ -651,9 +659,8 @@ const Quiz = () => {
         <h1 className="text-4xl font-bold text-darkblue text-center px-[38px] font-gluten">
           {selectedQuestion?.title}
         </h1>
-
       </div>
-      <div className="flex flex-col gap-4 mt-[72px] px-4 w-full">
+      <div className="flex flex-col gap-4 mt-[79px] px-4 w-full">
         {labels.map((label, index) => (
           <div
             key={index}
@@ -662,16 +669,34 @@ const Quiz = () => {
               texts[index]
             )}`}
           >
-            <div className="font-bold flex items-center justify-center">{label}</div>
+            <div
+              className={`font-bold flex items-center justify-center
+    ${
+      !selected
+        ? "text-pink"
+        : selected === selectedQuestion.correct
+        ? texts[index] === selected
+          ? "text-white"
+          : "text-pink"
+        : texts[index] === selected || texts[index] === selectedQuestion.correct
+        ? "text-white"
+        : "text-pink"
+    }
+  `}
+            >
+              {label}
+            </div>
             <h1 className="text-sm">{texts[index]}</h1>
           </div>
         ))}
       </div>
-      {showPlayAgain && (
-        <CustomButton onClick={handlePlayAgain} className="mt-6">
-          {t1("try_again")}
-        </CustomButton>
-      )}
+      <div className="px-5 w-full">
+        {showPlayAgain && (
+          <CustomButton onClick={handlePlayAgain} className="mt-6 w-full">
+            {t1("try_again")}
+          </CustomButton>
+        )}
+      </div>
     </div>
   );
 };

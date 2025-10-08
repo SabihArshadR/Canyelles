@@ -346,7 +346,7 @@ const Page = ({ setShowARView, handleClose, audioUrl, linkLoad, from }: any) => 
 
       {!avatarPos && (
         <div className={`fixed bottom-10 w-full flex justify-center ${from == "intro" ?"left-0" :""}`} style={{ zIndex: 2147483646 }}>
-          <CustomButton onClick={placeAvatar} className="px-6 py-3 bg-green-600 !w-[300px] text-white rounded-xl shadow-lg">
+          <CustomButton onClick={placeAvatar} className="px-6 py-3 !w-[300px] text-white rounded-xl shadow-lg">
             {t("place")}
           </CustomButton>
         </div>

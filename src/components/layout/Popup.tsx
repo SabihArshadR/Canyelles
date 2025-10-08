@@ -58,7 +58,7 @@ const SplashPopUp = ({ handleClose }: { handleClose: () => void }) => {
                             className="flex items-center justify-between gap-4  py-3"
                         >
                             <div>
-                                <h2 className="text-xl font-medium text-gray-800">{item.title}</h2>
+                                <h2 className="text-xl font-medium text-gray-800 font-gluten">{item.title}</h2>
                                 <a
                                     href={item.url}
                                     target="_blank"

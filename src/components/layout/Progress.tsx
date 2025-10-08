@@ -106,7 +106,7 @@ const Progress = () => {
         <Image src={getLevelIcon()} alt="Level Icon" width={96} height={96} />
       </div>
 
-      <h1 className="text-xl font-bold text-darkblue mt-[2px]">
+      <h1 className="text-2xl font-bold text-darkblue mt-[2px]">
         {getLevelName()}
       </h1>
 
@@ -117,13 +117,13 @@ const Progress = () => {
       <div className="mt-[30px] flex w-full justify-center">
         <CustomButton
           onClick={() => setActiveTab("progress")}
-          className={`rounded-none w-full bg-torquoise font-gluten ${activeTab === "progress" ? "" : "bg-transparentt"} `}
+          className={`rounded-none w-full bg-torquoise ${activeTab === "progress" ? "" : "bg-transparentt"} `}
         >
           {t("button1")}
         </CustomButton>
         <CustomButton
           onClick={() => setActiveTab("nivell")}
-          className={`rounded-none w-full bg-torquoise font-gluten ${activeTab === "nivell" ? "" : "bg-transparentt"} `}
+          className={`rounded-none w-full bg-torquoise ${activeTab === "nivell" ? "" : "bg-transparentt"} `}
         >
           {t2("button")}
         </CustomButton>

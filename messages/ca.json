@@ -62,10 +62,10 @@
     "Dashboard": {
         "card1": "Mapa",
         "card2": "Perfil",
-        "card3": "Troballes",
-        "card4": "Saber-ne més",
-        "card5": "FAQ's",
-        "card6": "Recomanem",
+        "card3": "Motxilla",
+        "card4": "Archius històrics",
+        "card5": "FAQ",
+        "card6": "Ajuntament",
         "read_more": "Més informació",
         "lang1": "Català",
         "lang2": "Castellà",
@@ -110,7 +110,7 @@
         "title3": "Roques recol lectades",
         "button": "NIVELL",
         "row1": "NIVELL PLANET A",
-        "row2": "NIVELL GALAXIA",
+        "row2": "NIVELL GALAXIÀ",
         "row3": "NIVELL SISTEMA SOLAR",
         "rowtitle": "Guanya 1000 punts"
     },
@@ -211,7 +211,7 @@
         "LoginAccount": "Inicia sessió"
     },
     "Amics": {
-        "title": "TROBALLES",
+        "title": "MOTXILLA",
         "description": "Sed nec risus risus. Suspendisse lobortis risus eu velit gravida ornare at ornare ante. Nam malesuada consequat leo et facilisis. Nunc et quam euismod, auctor nulla porta, pretium lacus."
     },
     "Head": {

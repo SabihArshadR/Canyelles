@@ -43,8 +43,8 @@ const ResetPassword = () => {
     };
 
     return (
-        <div className="flex flex-col justify-center items-center gap-[22px] py-5 px-4 h-[80vh] bg-lightblue">
-            <div className="desktop:max-w-[400px] tablet:max-w-[400px] mobile:w-full">
+        <div className="flex flex-col items-center gap-[22px] py-5 px-4 h-[80vh] bg-lightblue">
+            <div className="desktop:max-w-[400px] tablet:max-w-[400px] mobile:w-full mt-10">
                 {/* <div className="flex justify-center">
                     <Image src={Logo} alt="Logo" width={176} height={148} />
                 </div> */}
